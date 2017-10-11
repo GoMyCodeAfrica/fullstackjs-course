@@ -18,3 +18,12 @@
 * 1.3 HTML forms
   * [Collecting data from user](1_3%20HTML%20forms/1-Collecting%20data%20from%20user.md)
   * [Form validation](1_3%20HTML%20forms/2-Form%20validation.md)
+* 1.4 Intro to CSS
+  * [CSS, the language of web design](1_4%20Intro%20to%20CSS/1-CSS,%20the%20language%20of%20web%20design.md)
+  * [Attach CSS to you HTML files](1_4%20Intro%20to%20CSS/2-Attach%20CSS%20to%20you%20HTML%20files.md)
+  * [Target HTML elements with CSS selectors](1_4%20Intro%20to%20CSS/3-Target%20HTML%20elements%20with%20CSS%20selectors.md)
+  * [CSS properties](1_4%20Intro%20to%20CSS/4-CSS%20properties.md)
+  * [CSS values](1_4%20Intro%20to%20CSS/5-CSS%20values.md)
+  * [Introduction to CSS layout](1_4%20Intro%20to%20CSS/6-CSS%20layout.md)
+  * [Project: Comunity school home page](1_4%20Intro%20to%20CSS/community_college.md)
+  * [Project: Replicate a design mock-up](1_4%20Intro%20to%20CSS/mockup_to_html.md)

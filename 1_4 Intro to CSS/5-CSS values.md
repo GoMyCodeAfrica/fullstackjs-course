@@ -77,6 +77,7 @@
 ### `padding` and `margin`
 ![](http://blog.teamtreehouse.com/wp-content/uploads/2014/05/chrome-computed.png)
 * margin and padding are the two most commonly used properties for spacing-out elements. A margin is the space **outside** something, whereas padding is the space **inside** something.
+* You can see the margin, padding, border, width, height and position of any element in the Chrome Dev Tools, as seen below
 * You can change the padding or margin in different methods:
  * When one value is specified, it applies the same padding/margin to all four sides. e.g. `padding: 10x;`
  * When two values are specified, the first padding/margin applies to the top and bottom, the second to the left and right. e.g. `margin: 10px 20px;`

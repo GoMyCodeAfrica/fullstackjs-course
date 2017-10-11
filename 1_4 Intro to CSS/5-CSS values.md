@@ -74,8 +74,11 @@
 * syntax: `border: <line-width> || <line-style> || <color>`
 * e.g. `border: 1px solid red;`, `border: 2px dashed #eee;`, `border: none`
 
-###`padding`
-
-
-
-### `margin`
+### `padding` and `margin`
+![](http://blog.teamtreehouse.com/wp-content/uploads/2014/05/chrome-computed.png)
+* margin and padding are the two most commonly used properties for spacing-out elements. A margin is the space **outside** something, whereas padding is the space **inside** something.
+* You can change the padding or margin in different methods:
+ * When one value is specified, it applies the same padding/margin to all four sides. e.g. `padding: 10x;`
+ * When two values are specified, the first padding/margin applies to the top and bottom, the second to the left and right. e.g. `margin: 10px 20px;`
+ * When three values are specified, the first padding/margin applies to the top, the second to the left and right, the third to the bottom. e.g `padding: 10px 20px 5px;`
+ * When four values are specified, the paddings/margins apply to the top, right, bottom, and left in that order (clockwise). e.g. `margin: 10px 5px 8px 9px`

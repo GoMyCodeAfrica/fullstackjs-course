@@ -13,7 +13,7 @@ To test comprehension of CSS text styling techniques.
 
 ## Project brief
 
-You have been provided with some raw HTML for the homepage of an imaginary community college, plus some CSS that styles the page into a two column layout and provides some other rudimentary styling. You are to write your CSS additions below the comment at the bottom of the CSS file, to make sure it is easy to mark the bits you have done. Don't worry if some of the selectors are repetitious; we'll let you off in this instance.
+You have been provided with some raw HTML for the homepage of an imaginary community college, plus some CSS that styles the page into a two column layout and provides some other rudimentary styling [here](Assessment_community_website). You are to write your CSS additions below the comment at the bottom of the CSS file, to make sure it is easy to mark the bits you have done. Don't worry if some of the selectors are repetitious; we'll let you off in this instance.
 
 <strong>Fonts</strong>:
 

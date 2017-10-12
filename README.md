@@ -26,3 +26,5 @@
   * [CSS values](1_4%20Intro%20to%20CSS/5-CSS%20values.md)
   * [Project: Comunity school home page](1_4%20Intro%20to%20CSS/community_college.md)
   * [Project: Replicate a design mock-up](1_4%20Intro%20to%20CSS/mockup_to_html.md)
+1.5 Week 1 project
+  * [Build your portfolio](week1_project_built_your_portfolio)

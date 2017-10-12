@@ -1,2 +1,0 @@
-* topics
-  * binary digits

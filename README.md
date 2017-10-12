@@ -1,10 +1,10 @@
 # fullstackjs-course
 
 * 1.1 Intro to HTML
-  * [HTML, the de facto language of the web](1_1_Intro_to_HTML/1-HTML,_the_de_facto_language_of_the_web.md)
+  * [HTML, the de facto language of the web](1_1_Intro_to_HTML/1-HTML_the_de_facto_language_of_the_web.md)
   * [Choose your editor](1_1_Intro_to_HTML/2-Choose_your_editor.md)
   * [Getting started with HTML](1_1_Intro_to_HTML/3-Create_HTML_elements_with_tags.md)
-  * [When tags can only do so much, use attributes](1_1_Intro_to_HTML/4-When_tags_can_only_do_so_much,_use_Attributes.md)
+  * [When tags can only do so much, use attributes](1_1_Intro_to_HTML/4-When_tags_can_only_do_so_much_use_Attributes.md)
   * [Project: Marking-up a letter](1_1_Intro_to_HTML/marking_letter.md)
   * [Project: Page of content](1_1_Intro_to_HTML/page_of_content.md)
   * [Project: Build a tribute page](1_1_Intro_to_HTML/tribute_page.md)
@@ -20,7 +20,7 @@
   * [Collecting data from user](1_3_HTML_forms/1-Collecting_data_from_user.md)
   * [Form validation](1_3_HTML_forms/2-Form_validation.md)
 * 1.4 Intro to CSS
-  * [CSS, the language of web design](1_4_Intro_to_CSS/1-CSS,_the_language_of_web_design.md)
+  * [CSS, the language of web design](1_4_Intro_to_CSS/1-CSS_the_language_of_web_design.md)
   * [Attach CSS to you HTML files](1_4_Intro_to_CSS/2-Attach_CSS_to_you_HTML_files.md)
   * [Target HTML elements with CSS selectors](1_4_Intro_to_CSS/3-Target_HTML_elements_with_CSS_selectors.md)
   * [CSS properties](1_4_Intro_to_CSS/4-CSS_properties.md)

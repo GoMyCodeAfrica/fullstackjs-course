@@ -1,7 +1,7 @@
 # fullstackjs-course
 
 * 1.1 Intro to HTML
-  * [HTML, the de facto language of the web](1_1_Intro_to_HTML/1-HTML_the_de_facto_language_of_the_web.md)
+  * [HTML, the de facto language of the web](1_1_Intro_to_HTML/1-HTML_thede_facto_language_of_the_web.md)
   * [Choose your editor](1_1_Intro_to_HTML/2-Choose_your_editor.md)
   * [Getting started with HTML](1_1_Intro_to_HTML/3-Create_HTML_elements_with_tags.md)
   * [When tags can only do so much, use attributes](1_1_Intro_to_HTML/4-When_tags_can_only_do_so_much_use_Attributes.md)
@@ -28,4 +28,4 @@
   * [Project: Comunity school home page](1_4_Intro_to_CSS/community_college.md)
   * [Project: Replicate a design mock-up](1_4_Intro_to_CSS/mockup_to_html.md)  
 * 1.5 Week 1 project
-  * [Build your portfolio](week1_project_built_your_portfolio)
+  * [Build your portfolio](week1_project_built_your_portfolio/instructions.md)

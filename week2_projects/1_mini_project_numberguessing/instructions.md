@@ -10,8 +10,11 @@ To have a first bit of experience at writing some JavaScript, and gain at least 
 
 In this mini project we will show you how to build up the simple game you can see below:
 
-<p data-height="284" data-theme-id="0" data-slug-hash="gGBXVp" data-default-tab="result" data-user="morfioce" data-embed-version="2" data-pen-title="Top hidden code" class="codepen">See the Pen <a href="https://codepen.io/morfioce/pen/gGBXVp/">Top hidden code</a> by moncef (<a href="https://codepen.io/morfioce">@morfioce</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<p align="center">
+	<img src="images/number_game.png">
+</p>
+
+Try the <a href="https://codepen.io/morfioce/pen/gGBXVp">live example</a> (<strong>no picking at the source code</strong>)
 
 ## Game instructions
 

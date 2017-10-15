@@ -96,9 +96,7 @@ function updateName() {
 }
 ```
 
-<p data-height="265" data-theme-id="0" data-slug-hash="EwdvWr" data-default-tab="result" data-user="morfioce" data-embed-version="2" data-pen-title="A high-level definitionEdit" class="codepen">See the Pen <a href="https://codepen.io/morfioce/pen/EwdvWr/">A high-level definitionEdit</a> by moncef (<a href="https://codepen.io/morfioce">@morfioce</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-
+Try the <a href="https://codepen.io/morfioce/pen/EwdvWr">live example</a>.
 
 ## What can JavaScript really do?
 

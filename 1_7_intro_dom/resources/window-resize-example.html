@@ -24,6 +24,41 @@
     </div>
 
     <script>
+      var divElt = document.querySelector('div');
+
+      function resizeDiv() {
+        // body...
+        var height = window.innerHeight;
+        var width = window.innerWidth;
+
+        console.log("height: ", height)
+
+        divElt.style.width = width + 'px';
+        divElt.style.height = height + 'px';
+      }
+
+      // resizeDiv();
+
+      window.onresize = resizeDiv;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+    <script>
 
     </script>
   </body>

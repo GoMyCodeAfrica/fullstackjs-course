@@ -1,0 +1,24 @@
+body {
+	position: relative;
+}
+main {
+	width: 75%;
+	margin-top: 95px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.card {
+	margin-bottom: 15px;
+}
+
+footer .container {
+	max-width: 1750px;
+}
+
+@media (max-width: 1400px) {
+	footer .container {
+		max-width: 100%;
+	}
+}

@@ -26,7 +26,8 @@ print("0. Warm up")
 	Return the average of electricity consumption over the three months.
 */
 function averageElectricityBill(bill1, bill2, bill3) {
-	return null;
+	var average = ((bill1 + bill2 + bill3) / 3).toFixed(3); // round to 3 decimal places
+	return Number(average); // convert average from string to number
 }
 
 print("averageElectricityBill");
@@ -62,9 +63,8 @@ print(separator);
     insert additional new lines between the greeting, message, and signature
 */
 function formatLetter(recipient, sender, emailBody) {
-	return null;
+	return "Hello " +  recipient + ",\\n\\n" + emailBody + "\\n\\nSincerely,\\n" + sender;
 }
-
 print("formatLetter");
 test(formatLetter("James", "Richard", "Things are well."), "Hello James,\\n\\nThings are well.\\n\\nSincerely,\\nRichard");
 print(separator);
@@ -82,7 +82,7 @@ function sliceItAndCombineIt(str, index1, index2, index3, index4) {
 }
 
 print("sliceItAndCombineIt");
-test(sliceItAndCombineIt("This is a Test", 0, 4, 5, 7), "thisis");
+test(sliceItAndCombineIt("This is a Test", 0, 4, 5, 7), "Thisis");
 test(sliceItAndCombineIt("This is a Test", 0, 4, 1, 2), "Thish");
 print(separator);
 
@@ -120,7 +120,7 @@ function findLastMatch(str, subStr) {
 
 print("findLastMatch");
 test(findLastMatch("Roses are red", "re"), 10);
-test(findLastMatch("The is a rainbow in the sky", "he"), 22);
+test(findLastMatch("The is a rainbow in the sky", "he"), 21);
 test(findLastMatch("Roses are red", "are"), 6);
 test(findLastMatch("The program is correct", "the"), -1);
 print(separator);

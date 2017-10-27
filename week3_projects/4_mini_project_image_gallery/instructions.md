@@ -8,7 +8,7 @@ To test comprehension of JavaScript loops, functions, conditionals, and events.
 
 ## Starting point
 
-To get this assessment started, you should go and <a href="To get this assessment started, you should go and grab the ZIP file for the example and unzip it somewhere on your computer.">grab the ZIP</a> file for the example and unzip it somewhere on your computer.
+To get this assessment started, you should go and <a href="gallery-start.zip">grab the ZIP</a> file for the example and unzip it somewhere on your computer.
 
 ## Project brief
 

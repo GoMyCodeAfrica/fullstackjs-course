@@ -28,32 +28,15 @@
 		crossorigin="anonymous"></script>
 	<script>
 		// insert '<img src="images/ryu_stand_still.png">' into the .main div
-		$(".main")
-			.append('<img src="images/ryu_hadoken_pose.png">');
-			// .append('<img class="hadouken" src="images/hadouken.gif">');
+		
 
 		// animate ryu when hovered over
-		$('.main img')
-			.mouseover(function () {
-				this.src = 'images/ryu_animated.gif';
-			})
-			.mouseout(function () {
-				this.src = 'images/ryu_stand_still.png';
-			});
+		// Hint: think of using mouseover and mouseout events
+		
 
-		$('.main img')
-			.mousedown(function () {
-				this.src = 'images/ryu_hadoken_pose.png';
-				$('.main').append('<img class="hadouken" src="images/hadouken.gif">')
-				$('.hadouken').animate({	
-					'margin-left': '470px'
-				}, 1000, 'swing', function () {
-					this.remove();
-				});
-			})
-			.mouseup(function () {
-				this.src = 'images/ryu_animated.gif';
-			});
+		// When you click on ryu, he should do a "hadouken"
+		// Hint: think of using mousedown and mouseup and animate(to animate the hadouken gif).
+		
 	</script>
 </body>
 </html>

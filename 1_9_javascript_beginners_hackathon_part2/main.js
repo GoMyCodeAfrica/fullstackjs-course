@@ -4,7 +4,11 @@ var print = console.log;
 var separator = "\n---\n\n";
 
 function areEqualArrays(listA, listB) {
-	return listA.sort().join() === listB.sort().join();
+	if (listA.length !== listB.length) return false;
+	for (var i = 0; i < listA.length; i++) {
+		if (listB.indexOf(listA[i]) === -1) return false; 
+	}
+	return true;
 }
 
 function test(got, expected) {

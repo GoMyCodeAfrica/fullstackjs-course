@@ -16,6 +16,12 @@
 
 6. <strong>User story</strong> I can push a button to toggle between Fahrenheit and Celsius.
 
+7. <strong>User Story</strong> I can see a loading spinner while the application is loading the weather data.
+
+## Extra
+
+Try to add a small google map to your application. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation">Thid demo</a> could be helpful.
+
 >	Note: Many internet browsers now require an HTTP Secure (https://) connection to obtain a user's locale via HTML5 Geolocation. For this reason, we recommend using HTML5 Geolocation to get user location and then use the freeCodeCamp Weather API https://fcc-weather-api.glitch.me which uses an HTTP Secure connection for the weather. Also, be sure to connect to CodePen.io via https://.
 
 >	Remember to use Read-Search-Ask if you get stuck.

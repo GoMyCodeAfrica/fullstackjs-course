@@ -6,6 +6,9 @@ var separator = "\n---\n\n";
 function areEqualArrays(listA, listB) {
 	if (listA.length !== listB.length) return false;
 	for (var i = 0; i < listA.length; i++) {
+		if (Array.isArray(listA[i]) && Array.isArray(listA[i])) {
+			return areEqualArrays(listA[i], listB[i]);
+		}
 		if (listB.indexOf(listA[i]) === -1) return false; 
 	}
 	return true;
@@ -218,4 +221,103 @@ test(repeatStringNumTimes('*', 3), '***');
 test(repeatStringNumTimes('*', 8), '********');
 test(repeatStringNumTimes('abc', 3), 'abcabcabc');
 test(repeatStringNumTimes('abc', -3), '');
+print(separator);
+
+// Ex 8
+
+/*  Truncate a string
+	Truncate a string (first argument) if it is longer than the given maximum
+	string length (second argument). 
+	Return the truncated string with a ... ending.
+
+	Note that inserting the three dots to the end will add to the string length.
+
+	However, if the given maximum string length num is less than or equal to 3, 
+	then the addition of the three dots does not add to the string length 
+	in determining the truncated string.
+*/
+function truncateString(str, num) {
+  return null;
+}
+
+
+print("truncateString");
+test(truncateString("A-tisket a-tasket A green and yellow basket", 11) , 
+	'A-tisket...');
+test(truncateString("Peter Piper picked a peck of pickled peppers", 14) ,
+	'Peter Piper...');
+test(truncateString("A-", 1), 'A...');
+test(truncateString("Absolutely Longer", 2) , 'Ab...');
+test(truncateString("A-tisket a-tasket A green and yellow basket",
+	"A-tisket a-tasket A green and yellow basket".length + 2) , 
+	'A-tisket a-tasket A green and yellow basket');
+test(truncateString("A-tisket a-tasket A green and yellow basket",
+	"A-tisket a-tasket A green and yellow basket".length) ,
+	'A-tisket a-tasket A green and yellow basket');
+print(separator);
+
+// Ex 9
+
+/*  Chunky Monkey
+	Write a function that splits an array (first argument) 
+	into groups the length of size (second argument) and returns them as a two-dimensional array.
+*/
+function chunkArrayInGroups(arr, size) {
+  return null;
+}
+
+print("chunkArrayInGroups");
+test(chunkArrayInGroups(["a", "b", "c", "d"], 2), [["a", "b"], ["c", "d"]]);
+test(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 2), [[0, 1], [2, 3], [4, 5]]);
+test(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 3), [[0, 1, 2], [3, 4, 5]]);
+test(chunkArrayInGroups([0, 1, 2, 3, 4, 5], 4), [[0, 1, 2, 3], [4, 5]]);
+test(chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6], 3), [[0, 1, 2], [3, 4, 5], [6]]);
+test(chunkArrayInGroups([0, 1, 2, 3, 4, 5, 6, 7, 8], 4), [[0, 1, 2, 3], [4, 5, 6, 7], [8]]);
+print(separator);
+
+// Ex 10
+
+/*  Slasher Flick
+	Return the remaining elements of an array after chopping off n elements from the head.
+
+	The head means the beginning of the array, or the zeroth index.
+*/
+function slasher(arr, howMany) {
+  return null;
+}
+
+print("slasher");
+test(slasher([1, 2, 3], 2), [3]);
+test(slasher([1, 2, 3], 0), [1, 2, 3]);
+test(slasher(["burgers", "fries", "shake"], 1), ["fries", "shake"]);
+test(slasher([1, 2, "chicken", 3, "potatoes", "cheese", 4], 5), ["cheese", 4]);
+print(separator);
+
+// Ex 11
+
+/*  Mutations
+	Return true if the string in the first element of the array contains all of the letters of the 
+	string in the second element of the array.
+
+	For example, ["hello", "Hello"], should return true because all of the letters in the second
+	string are present in the first, ignoring case.
+
+	The arguments ["hello", "hey"] should return false because the string "hello" 
+	does not contain a "y".
+
+	Lastly, ["Alien", "line"], should return true because all of the letters in "line" 
+	are present in "Alien".
+*/
+function mutation(arr) {
+  return null;
+}
+
+
+print("slasher");
+test(mutation(["hello", "hey"]), true);
+test(mutation(["hello", "Hello"]), true);
+test(mutation(["zyxwvutsrqponmlkjihgfedcba", "qrstu"]), true);
+test(mutation(["Mary", "Army"]), true);
+test(mutation(["hello", "neo"]), false);
+test(mutation(["voodoo", "no"]), false);
 print(separator);

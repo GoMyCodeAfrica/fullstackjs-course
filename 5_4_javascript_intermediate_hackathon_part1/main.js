@@ -44,14 +44,14 @@ print("Basic Algorithmic Scripting");
 	Your result must be a string.
 */
 function reverseStringV1(str) {
-  return str.split("").reverse().join("");
+  return null;
 }
 
 // Here do the same thing but don't use built-in functions
 // such as split/reverse/join
 
 function reverseStringV2(str) {
-  return str.split("").reverse().join("");
+  return null;
 }
 
 print("reverseStringV1");
@@ -81,10 +81,7 @@ print(separator);
 	For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
 */
 function factorialize(num) {
-  if (num === 1 || num === 0) {
-    return 1;
-  }
-  return num * factorialize(num-1);
+  return null;
 }
 
 print("factorialize");
@@ -112,9 +109,7 @@ print(separator);
 	We'll also pass strings with special symbols, such as "2A3*3a2", "2A3  3a2", and "2_A3*3#A2".
 */
 function palindrome(str) {
-  // Good luck!
-  var word = str.replace(/[^a-zA-Z0-9]/g, "").toLowerCase();
-  return word === word.split("").reverse().join("");
+  return null;
 }
 
 print("palindrome");
@@ -137,13 +132,7 @@ print(separator);
 	Your response should be a number.
 */
 function findLongestWord(str) {
-  var worlds = str.split(' ');
-  var longest = 0;
-  for (var i = 0; i < worlds.length; i++) {
-  	if (worlds[i].length > longest) longest = worlds[i].length;
-  }
-
-  return longest;
+  return null;
 }
 
 print("findLongestWord");
@@ -165,15 +154,7 @@ print(separator);
 	connecting words like "the" and "of".
 */
 function titleCase(str) {
-  var words = str.split(' ');
-  var answer = [];
-  var capitilizedWord = ''
-  for (var i = 0; i < words.length; i++) {
-  	capitilizedWord = words[i][0].toUpperCase() + words[i].slice(1).toLowerCase();
-  	answer.push(capitilizedWord);
-  }
-
-  return answer.join(' ');
+  return null;
 }
 
 print("titleCase");
@@ -193,19 +174,7 @@ print(separator);
 	and access each member with array syntax arr[i].
 */
 function largestOfFour(arr) {
-  function maxArray(arr) {
-  	var max = 0;
-  	for (var i = 0; i < arr.length; i++) {
-  		if (arr[i] > max) max = arr[i];
-  	}
-  	return max;
-  };
-  var largest = [];
-  for (var i = 0; i < arr.length; i++) {
-  	largest.push(maxArray(arr[i]));
-  }
-
-  return largest;
+  return null;
 }
 
 // Ex 6
@@ -219,9 +188,7 @@ function largestOfFour(arr) {
 	we would like you to use one of the JavaScript substring methods instead.
 */
 function confirmEnding(str, target) {
-  var targetLen = target.length;
-  var ending = str.slice(str.length - targetLen);
-  return ending === target;
+  return null;
 }
 
 
@@ -243,14 +210,7 @@ print(separator);
 	Return an empty string if num is not a positive number.
 */
 function repeatStringNumTimes(str, num) {
-  if (num < 0) return '';
-  
-  var result  = '';
-  for (var i = 0; i < num; i++) {
-  	result += str;
-  }
-
-  return result;
+  return null;
 }
 
 print("repeatStringNumTimes");

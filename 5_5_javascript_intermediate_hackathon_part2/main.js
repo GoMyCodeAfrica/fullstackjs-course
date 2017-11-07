@@ -36,159 +36,156 @@ function test(got, expected) {
 // --------------------------
 
 // Basic algorithmic scripting
-print("Basic Algorithmic Scripting");
+print("Basic Algorithmic Scripting part II");
 // Ex 0
 
 /*
-	Reverse the provided string.
+	Falsy Bouncer
 
-	You may need to turn the string into an array before you can reverse it.
+	Remove all falsy values from an array.
 
-	Your result must be a string.
+	Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
 */
-function reverseStringV1(str) {
+function bouncer(arr) {
   return null;
 }
 
-// Here do the same thing but don't use built-in functions
-// such as split/reverse/join
-
-function reverseStringV2(str) {
-  return null;
-}
-
-print("reverseStringV1");
-test(reverseStringV1("Hello World"), "dlroW olleH");
-test(reverseStringV1("awesomeString"), "gnirtSemosewa");
-test(reverseStringV1("first second"), "dnoces tsrif");
-test(reverseStringV1("madam"), "madam");
-print(separator);
-
-print("reverseStringV2");
-test(reverseStringV2("Hello World"), "dlroW olleH");
-test(reverseStringV2("awesomeString"), "gnirtSemosewa");
-test(reverseStringV2("first second"), "dnoces tsrif");
-test(reverseStringV2("madam"), "madam");
+print("bouncer");
+test(bouncer([7, "ate", "", false, 9]), [7, "ate", 9]);
+test(bouncer(["a", "b", "c"]), ["a", "b", "c"]);
+test(bouncer([false, null, 0, NaN, undefined, ""]), []);
+test(bouncer([1, null, NaN, 2, undefined]), [1, 2]]);
 print(separator);
 
 // Ex 1
 
-/*  Factorialize a Number
-	Return the factorial of the provided integer.
-
-	If the integer is represented with the letter n,
-	a factorial is the product of all positive integers less than or equal to n.
-
-	Factorials are often represented with the shorthand notation n!
-
-	For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
+/*  Seek and Destroy
+	You will be provided with an initial array (the first argument in the 
+	destroyer function), followed by one or more arguments.
+	
+	Remove all elements from the initial array that are of the same value as 
+	these arguments.
 */
-function factorialize(num) {
+function destroyer(arr) {
+  // Remove all the values
   return null;
 }
 
 print("factorialize");
-test(factorialize(5), 120);
-test(factorialize(7), 5040);
-test(factorialize(9), 362880);
-test(factorialize(11), 39916800);
+test(destroyer([1, 2, 3, 1, 2, 3], 2, 3), [1, 1]);
+test(destroyer([1, 2, 3, 5, 1, 2, 3], 2, 3), [1, 5, 1]);
+test(destroyer([3, 5, 1, 2, 2], 2, 3, 5), [1]);
+test(destroyer([2, 3, 2, 3], 2, 3), []);
+test(destroyer(["tree", "hamburger", 53], "tree", 53), ["hamburger"]);
 print(separator);
 
  // Ex 2
 
-/*  Check for Palindromes
-	Return true if the given string is a palindrome. Otherwise, return false.
+/*  Where do I belong
+	Return the lowest index at which a value (second argument) should be 
+	inserted into an array (first argument) once it has been sorted.
+	The returned value should be a number.
 
-	A palindrome is a word or sentence that's spelled the same way both forward and backward,
-	ignoring punctuation, case, and spacing.
+	For example, getIndexToIns([1,2,3,4], 1.5) should return 1 
+	because it is greater than 1 (index 0), but less than 2 (index 1).
 
-	Note
-	You'll need to remove all non-alphanumeric characters (punctuation, spaces and symbols)
-	and turn everything lower case in order to check for palindromes.
-
-	We'll pass strings with varying formats, such as "racecar", "RaceCar", and "race CAR" 
-	among others.
-
-	We'll also pass strings with special symbols, such as "2A3*3a2", "2A3  3a2", and "2_A3*3#A2".
+	Likewise, getIndexToIns([20,3,5], 19) should return 2 
+	because once the array has been sorted it will look like [3,5,20] 
+	and 19 is less than 20 (index 2) and greater than 5 (index 1).
 */
-function palindrome(str) {
+function getIndexToIns(arr, num) {
   return null;
 }
 
-print("palindrome");
-test(palindrome('ab ba'), true);
-test(palindrome('ab_ba'), true);
-test(palindrome('7ab@ba7'), true);
-test(palindrome('race car'), true);
-test(palindrome('A man, a plan, a canal. Panama'), true);
-test(palindrome('never odd or even'), true);
-test(palindrome('nope'), false);
-test(palindrome('My age is 0, 0 si ega ym.'), true);
-test(palindrome('1 eye for of 1 eye.'), false);
+print("getIndexToIns");
+test(getIndexToIns([10, 20, 30, 40, 50], 35), 3);
+test(getIndexToIns([10, 20, 30, 40, 50], 30), 2);
+test(getIndexToIns([40, 60], 50), 1);
+test(getIndexToIns([3, 10, 5], 3), 0);
+test(getIndexToIns([5, 3, 20, 3], 5), 2);
+test(getIndexToIns([2, 20, 10], 19), 2);
+test(getIndexToIns([2, 5, 10], 15) , 3);
 print(separator);
 
 // Ex 3
 
-/*  Find the Longest Word in a String 
-	Return the length of the longest word in the provided sentence.
-
-	Your response should be a number.
+/*  Sum All Numbers in a Range
+	We'll pass you an array of two numbers. Return the sum of those two numbers 
+	and all numbers between them.
 */
-function findLongestWord(str) {
+function sumAll(arr) {
   return null;
 }
 
 print("findLongestWord");
-test(findLongestWord('The quick brown fox jumped over the lazy dog'), 6);
-test(findLongestWord('May the force be with you'), 5);
-test(findLongestWord('Google do a barrel roll'), 6);
-test(findLongestWord('What is the average airspeed velocity'), 8);
-test(findLongestWord('What if we try a super-long word such as\
-	 otorhinolaryngology'), 19);
+test(sumAll([1, 4]), 10);
+test(sumAll([4, 1]), 10);
+test(sumAll([5, 10]), 45);
+test(sumAll([10, 5]), 45);
 print(separator);
 
 // Ex 4
 
-/*  Title Case a Sentence  
-	Return the provided string with the first letter of each word capitalized. 
-	Make sure the rest of the word is in lower case.
-
-	For the purpose of this exercise, you should also capitalize 
-	connecting words like "the" and "of".
+/*  Diff Two Arrays 
+	Compare two arrays and return a new array with any items only found in one 
+	of the two given arrays, but not both. 
+	In other words, return the symmetric difference of the two arrays.
 */
-function titleCase(str) {
+function diffArray(arrA, arrB) {
   return null;
 }
 
-print("titleCase");
-test(titleCase('I\'m a little tea pot'), 'I\'m A Little Tea Pot');
-test(titleCase('sHoRt AnD sToUt'), 'Short And Stout');
-test(titleCase('HERE IS MY HANDLE HERE IS MY SPOUT'),
-	'Here Is My Handle Here Is My Spout');
+print("diffArray");
+test(diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]), [4]);
+test(diffArray(["diorite", "andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+	["diorite", "andesite", "grass", "dirt", "dead shrub"]), ["pink wool"]);
+test(diffArray(["andesite", "grass", "dirt", "pink wool", "dead shrub"], 
+	["diorite", "andesite", "grass", "dirt", "dead shrub"]), ["diorite", "pink wool"]);
+test(diffArray(["andesite", "grass", "dirt", "dead shrub"],
+ 	["andesite", "grass", "dirt", "dead shrub"]), []);
+test(diffArray([1, "calf", 3, "piglet"], [1, "calf", 3, 4]), ["piglet", 4]);
+test(diffArray([], ["snuffleupagus", "cookie monster", "elmo"]), 
+	["snuffleupagus", "cookie monster", "elmo"]);
+test(diffArray([1, "calf", 3, "piglet"], [7, "filly"]), 
+	[1, "calf", 3, "piglet", 7, "filly"]);
 print(separator);
 
 // Ex 5
 
-/*  Return Largest Numbers in Arrays  
-	Return an array consisting of the largest number from each provided sub-array.
-	For simplicity, the provided array will contain exactly 4 sub-arrays.
+/*  Roman Numeral Converter
+	Convert the given number into a roman numeral.
 
-	Remember, you can iterate through an array with a simple for loop, 
-	and access each member with array syntax arr[i].
+	All roman numerals answers should be provided in upper-case.
 */
-function largestOfFour(arr) {
+function convertToRoman(arr) {
   return null;
 }
 
-print('largestOfFour');
-test(largestOfFour([1, 2, 3, 4], [10, 20, 30, 40],
-	[100, 200, 300, 400], [1000, 2000, 3000, 400]), [4, 40, 400, 4000]);
-test(largestOfFour([1, 2, 3, 4], [10, 20, 30, -40],
-	[100, -200, 300, -400], [1000, -2000, -3000, -400]), [4, 30, 300, 1000]);
-test(largestOfFour([1, 2, 3, 4], [5, 20, 25, 75],
-	[30, -20, 33, 0], [10, 0, 0, 175]), [4, 75, 33, 175]);
-test(largestOfFour([1, 2, 3, 0], [0, 20, 30, -40],
-	[10, -200, 3, -400], [100, -2000, 330, -400]), [3, 30, 10, 330]);
+print("convertToRoman");
+test(convertToRoman(2), 'II');
+test(convertToRoman(3), 'III');
+test(convertToRoman(4), 'IV');
+test(convertToRoman(5), 'V');
+test(convertToRoman(9), 'IX');
+test(convertToRoman(12), 'XII');
+test(convertToRoman(16), 'XVI');
+test(convertToRoman(29), 'XXIX');
+test(convertToRoman(44), 'XLIV');
+test(convertToRoman(45), 'XLV');
+test(convertToRoman(99), 'XCIX');
+test(convertToRoman(500), 'D');
+test(convertToRoman(501), 'DI');
+00test(convertToRoman(649), 'DCXLIX');
+test(convertToRoman(798), 'DCCXCVIII');
+test(convertToRoman(891), 'DCCCXCI');
+test(convertToRoman(1000), 'M');
+test(convertToRoman(1004), 'MIV');
+test(convertToRoman(1006), 'MVI');
+test(convertToRoman(1023), 'MXXIII');
+test(convertToRoman(2014), 'MMXIV');
+test(convertToRoman(3999), 'MMMCMXCIX');
+print(separator);
+
 // Ex 6
 
 /*  Confirm the Ending

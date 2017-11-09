@@ -156,6 +156,7 @@ print(separator);
 	Convert the given number into a roman numeral.
 
 	All roman numerals answers should be provided in upper-case.
+	http://www.mathsisfun.com/roman-numerals.html
 */
 function convertToRoman(arr) {
   return null;
@@ -175,7 +176,7 @@ test(convertToRoman(45), 'XLV');
 test(convertToRoman(99), 'XCIX');
 test(convertToRoman(500), 'D');
 test(convertToRoman(501), 'DI');
-00test(convertToRoman(649), 'DCXLIX');
+test(convertToRoman(649), 'DCXLIX');
 test(convertToRoman(798), 'DCCXCVIII');
 test(convertToRoman(891), 'DCCCXCI');
 test(convertToRoman(1000), 'M');
@@ -188,20 +189,26 @@ print(separator);
 
 // Ex 6
 
-/*  Confirm the Ending
-	Check if a string (first argument, str) ends with the given target string 
-	(second argument, target).
+/*  Wherefore art thou
+	Make a function that looks through an array of objects (first argument) 
+	and returns an array of all objects that have matching property and value 
+	pairs (second argument). Each property and value pair of the source object 
+	has to be present in the object from the collection if it is to be 
+	included in the returned array.
 
-	This challenge can be solved with the .endsWith() method, 
-	which was introduced in ES2015. But for the purpose of this challenge, 
-	we would like you to use one of the JavaScript substring methods instead.
+	For example, if the first argument is 
+	[{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, 
+	{ first: "Tybalt", last: "Capulet" }], and the second argument is 
+	{ last: "Capulet" }, 
+	then you must return the third object from the array (the first argument), 
+	because it contains the property and its value, that was passed on as 
+	the second argument.
 */
-function confirmEnding(str, target) {
+function whatIsInAName(collection, source) {
   return null;
 }
 
-
-print("confirmEnding");
+print("whatIsInAName");
 test(confirmEnding('Bastian', 'n'), true);
 test(confirmEnding('Connor', 'n'), false);
 test(confirmEnding('He has to give me a new name', 'name'), true);

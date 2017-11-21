@@ -1,11 +1,12 @@
 # React components
-
-inside a React, components are small pieces that construct an application. The idea is to divide the application into small parts which make it easier to debug, add and manage the application.
+inside a React, components are small parts that construct an application. The idea is to divide the application into small parts which make it easier to debug, add and manage the application.
 
 ## Define a component
 To define a new component we create a class that extends the class "Component", every component should have a method called "render": a function that tells the component what to... render
 
 ```javascript
+import React, { Component } from 'react';
+
 class NewComponent extends Component {
     render() {
         return <h1>Component JSX</h1>
@@ -16,17 +17,19 @@ export default NewComponent
 ```
 
 ## Include a component into another
-As the application is devided into component we need to include components into each other until we get one big components which represents the applicatoon.
 
 ```javascript
+import React, { Component } from 'react';
+
 import Child from '../Child'
+import AnotherChild from '../AnotherChild'
 
 class Parent extends Component {
     render() {
         return (
             <h1>Parent JSX:</h1>
             <Child />
-            <Child />
+            <AnotherChild />
             <h1>Parent JSX contenue here</h1>
         )
     }
@@ -34,8 +37,7 @@ class Parent extends Component {
 ```
 
 ## The Component Lifecycle
-Each component has several “lifecycle methods”: Creation, update and destraction.
-Methods prefixed with "will" are called right before something happens, and methods prefixed with did are called right after something happens.
+Each component has several “lifecycle methods”. Methods prefixed with will are called right before something happens, and methods prefixed with did are called right after something happens.
 
 - constructor() => Component created
 - componentWillMount() => Component created and ready to be rendred
@@ -48,7 +50,7 @@ Methods prefixed with "will" are called right before something happens, and meth
 - componentDidUpdate() => after updating occurs. This method is not called for the initial render.
 
 
-## Style react components
+## Styling react components
 ### 1- Importing a css file
 
 ```javascript
@@ -71,8 +73,13 @@ const divStyle = {
 [..]
 ```
 
+### Exercise
+Create a components which contains 2 divs, one with text color red and the other with color green, change the text size and background.
+
+Use one of the 2 methods for each div.
+
 ## Props
-We can think of props as Component's Input: The parent component can pass values to the child component through props. Then later the child component can use the value passed.
+We can think of props as Component's Input: The parent component can pass values to the child component through props.
 
 ### Example: Greeting Component
 
@@ -109,6 +116,12 @@ class App extends Component {
 export default App;
 ```
 
+### Exercise
+Create a Calculator Component which takes 2 inputs (through props) x and y and render (x+y).
+
+```html
+  <Calculator x=5 y=6 />
+```
 
 ## State
 We can store a state of a component in "this.state" and for every change of this state, the component will be re-rendred.
@@ -145,6 +158,9 @@ class Counter extends Component{
 
 export default Counter;
 ```
+
+### Exercise
+Create a Countdown component which takes number of seconds as input (through props) and render a countdown to 0.
 
 
 ## Looping and conditions
@@ -191,6 +207,10 @@ class People extends Component{
 
 export default People;
 ```
+
+### Exercise
+Add more attributes to person object (email, major etc.)
+
 ### Adding Conditions
 ```javascript
 import React, { Component } from 'react';
@@ -243,6 +263,13 @@ class People extends Component{
 
 export default People;
 ```
+
+### Exercise
+In place of rendering text "Fail/Pass" use styling to color the name of person depending on his score:
+- if < 50 => RED
+- if >= 50 => GREEN
+
+
 ## Events
 In HTML
 
@@ -254,14 +281,18 @@ In HTML
 
 With React
 
-```
+```html
 <button onClick={activateLasers}>
   Activate Lasers
 </button>
 ```
 
+### Exercise
+Create a component that contains a button and for every click it switch between two words "Active"/"Inactive".
+
+
 ### The "this" issue
-If we want to use "this" referring to the Component (for example to use this.setState()) we need in the callback to have access to "this", and that's not the default behaviar in javascript. The solution will be to use .bind().
+Using callbacks, for example for event handling, and we want to use "this" referring to the Component (for example to use this.setState()) we need in the callback to have access to "this", and that's not the default behaviar in javascript. The solution will be to use .bind().
 
 The bind() method creates a new function that, when called, has its "this" keyword set to the provided value, with a given sequence of arguments preceding any provided when the new function is called.
 
@@ -369,3 +400,16 @@ class Counter extends Component{
 
 export default Counter;
 ```
+
+### Exercise
+#### Messages App
+Create 2 components: the parent render list of messages, the child contains the input and button to add a message.
+
+## Demo application: Movies app
+User stories:
+
+As a user:
+- I can list all movies
+- I can edit a movie
+- I can filter movies by rating
+- I can add a movie

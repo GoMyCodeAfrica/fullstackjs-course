@@ -409,8 +409,22 @@ Create 2 components: the parent render list of messages, the child contains the 
 User stories:
 
 As a user:
-- I can list all movies: Each movie has a title, a picture, an author and Rating (for example 4/5, 3/5).
-The Rating should be displayed as "stars"
-- I can edit a movie: Change the title, the rating or the author
+- I can list all movies: Each movie has a title, a picture, an author and Rating (for example 4/5, 3/5). The Rating should be displayed as "stars".
+
+- I can edit a movie: Change the title, the rating or the author.
+
 - I can filter movies by rating: I can filter the list of movies to only show movies which have rating > x.
+
 - I can add a movie: From a form, I can add a movie specifying its title, rating, author, and image.
+
+
+Notes:
+- Create a new application using "create-react-app".
+
+- List of movies should be stored (hardcoded) in the state of "App" component.
+
+- The application should have at least 4 components: App, MoviesList, MovieCard and MovieCreator (contains the form for adding a new movie). Feel free to add more components.
+
+- Use bootstrap for Styling.
+
+- Feel free to add more features for example searching a movie etc.

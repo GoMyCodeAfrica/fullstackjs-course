@@ -409,7 +409,8 @@ Create 2 components: the parent render list of messages, the child contains the 
 User stories:
 
 As a user:
-- I can list all movies
-- I can edit a movie
-- I can filter movies by rating
-- I can add a movie
+- I can list all movies: Each movie has a title, a picture, an author and Rating (for example 4/5, 3/5).
+The Rating should be displayed as "stars"
+- I can edit a movie: Change the title, the rating or the author
+- I can filter movies by rating: I can filter the list of movies to only show movies which have rating > x.
+- I can add a movie: From a form, I can add a movie specifying its title, rating, author, and image.

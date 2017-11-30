@@ -42,7 +42,7 @@ axios.post('/user', {
   });
 ```
 
-Reade More in [Axios npm docs](https://www.npmjs.com/package/axios)
+Read More in [Axios npm docs](https://www.npmjs.com/package/axios)
 
 ## Exercise
 Use The Guardian open API to create a news application (Search for keyword and list news).

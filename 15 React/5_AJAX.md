@@ -60,5 +60,9 @@ User stories:
 - As a user I can see details about a post
 - As a user I can paginate between pages (each page should only displays 10 posts)
 
-![Home page](./Screen Shot 2017-12-07 at 10.19.34.png?raw=true "Home Page")
-![Details page](./Screen Shot 2017-12-07 at 10.20.42.png?raw=true "Details Page")
+### Moqups
+#### Home Page
+<img src="./Screen Shot 2017-12-07 at 10.19.34.png" height="500px" style="border: solid 1px #000">
+
+#### Details page
+<img src="./Screen Shot 2017-12-07 at 10.20.42.png"  height="500px" style="border: solid 1px #000">

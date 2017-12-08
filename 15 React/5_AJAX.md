@@ -68,3 +68,16 @@ https://content.guardianapis.com/search?q=sports&api-key=test
 ```
 
 Read more in the [API documentation](http://open-platform.theguardian.com/documentation/).
+
+User stories:
+- As a user I can search by keyword and get relative posts
+- As a user I can naviguate between different sections (Sports, Politics, Music ..) and get relative results
+- As a user I can see details about a post
+- As a user I can paginate between pages (each page should only displays 10 posts)
+
+### Moqups
+#### Home Page
+<img src="./Screen Shot 2017-12-07 at 10.19.34.png" height="500px" style="border: solid 1px #000">
+
+#### Details page
+<img src="./Screen Shot 2017-12-07 at 10.20.42.png"  height="500px" style="border: solid 1px #000">

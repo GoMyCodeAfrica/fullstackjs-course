@@ -43,7 +43,7 @@ Don't use API endpoints like this
 ```GET /users/711?activate```
 or event like this ```GET /users/711/activate```.
 
-Use PUT, POST and DELETE in place of GET.
+Use PATCH to and change the attribute activated in resource "user".
 
 
 ## 3- Don't mix singular and plural nouns

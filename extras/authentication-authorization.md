@@ -370,6 +370,10 @@ function(accessToken, refreshToken, profile, done) {
 }
 ```
 
+Code can be found here: https://github.com/GoMyCodeAfrica/login-app-passport
+
+# Task: Add another auth strategy
+
 Time for you to add another strategy (Google for example).
 
 Tutorial: https://scotch.io/tutorials/easy-node-authentication-google

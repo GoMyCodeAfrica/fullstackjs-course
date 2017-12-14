@@ -398,24 +398,23 @@ const {allow, can} = cancan;
 First, we specify the permissions
 
 ```javascript
-// allow users to view all public posts
-allow(User, 'view', Post, {public: true});
 
-// allow users to edit and delete their posts
-allow(User, ['edit', 'delete'], Post, (user, post) => post.authorId === user.id);
+// allow users to only view their posts
+allow(User, ['view'], Post, (user, post) => post.authorId === user.id);
 ```
 
-Now, we can test if a user can access some ressource
+Now, we can test if a user can access some resource
 
 ```javascript
-const user = req.user
-const post = getPost(id)
-
-if (can(user, 'view', post)) {
-  res.send(JSON.stringify(post))
-} else {
-  res.status(403).send("{errors: \"Unauthorized to view this post\"}").end()
-}
+app.get("/posts/:id", function(req, res){
+  Post.findById(req.params.id, function(err, post){
+    if (can(req.user, 'view', post)) {
+      res.send(JSON.stringify(post))
+    }else{
+      res.status(403).send("{errors: \"Unauthorized to view this post\"}").end()
+    }
+  });
+});
 ```
 
 Read more: https://github.com/vadimdemedes/cancan

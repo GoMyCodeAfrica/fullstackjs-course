@@ -34,22 +34,18 @@ Change your package.json and add this dependencies
 ```javascript
   ...
   "dependencies" : {
-    "express" : "~4.14.0",
-    "ejs" : "~2.5.2",
-    "mongoose" : "~4.13.1",
-    "passport" : "~0.3.2",
-    "passport-local" : "~1.0.0",
-    "passport-facebook" : "~2.1.1",
-    "passport-twitter" : "~1.0.4",
-    "passport-google-oauth" : "~1.0.0",
-    "connect-flash" : "~0.1.1",
-    "bcrypt-nodejs" : "latest",
-
-    "morgan": "~1.7.0",
+    "bcryptjs": "*",
     "body-parser": "~1.15.2",
+    "cancan": "^3.1.0",
     "cookie-parser": "~1.4.3",
-    "method-override": "~2.3.6",
-    "express-session": "~1.14.1"
+    "express": "~4.14.0",
+    "express-session": "~1.14.1",
+    "mongoose": "~4.13.1",
+    "passport": "~0.3.2",
+    "passport-facebook": "~2.1.1",
+    "passport-google-oauth": "~1.0.0",
+    "passport-local": "~1.0.0",
+    "passport-twitter": "~1.0.4"
   }
   ...
 ```

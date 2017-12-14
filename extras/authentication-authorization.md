@@ -377,3 +377,45 @@ Code can be found here: https://github.com/GoMyCodeAfrica/login-app-passport
 Time for you to add another strategy (Google for example).
 
 Tutorial: https://scotch.io/tutorials/easy-node-authentication-google
+
+
+# Authorization
+
+We will use a package called "CanCan" which make it easier to manage users permissions.
+
+```
+npm install --save cancan
+```
+
+We first import the package and 2 methods: "allow" and "can"
+
+```javascript
+const CanCan = require('cancan');
+const cancan = new CanCan();
+const {allow, can} = cancan;
+```
+
+First, we specify the permissions
+
+```javascript
+// allow users to view all public posts
+allow(User, 'view', Post, {public: true});
+
+// allow users to edit and delete their posts
+allow(User, ['edit', 'delete'], Post, (user, post) => post.authorId === user.id);
+```
+
+Now, we can test if a user can access some ressource
+
+```javascript
+const user = req.user
+const post = getPost(id)
+
+if (can(user, 'view', post)) {
+  res.send(JSON.stringify(post))
+} else {
+  res.status(403).send("{errors: \"Unauthorized to view this post\"}").end()
+}
+```
+
+Read more: https://github.com/vadimdemedes/cancan

@@ -49,7 +49,7 @@ const bodyParser = require('body-parser')
 Next, define the MongoDB connection string for the local database instance and the database name edx-course-db. Also apply middleware for logging and body parsing:
 
 ```JavaScript
-const url = 'mongodb://localhost:27017/edx-course-db'
+const url = 'mongodb://localhost:27017/accounts-db'
 let app = express()
 app.use(logger('dev'))
 app.use(bodyParser.json())

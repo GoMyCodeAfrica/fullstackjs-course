@@ -1,0 +1,35 @@
+{
+  "username": "gomycode-ci",
+  "password": "",
+  "repository": "",
+  "SupportedContentExtensions": [".md" ],
+  "Import": {
+    "SubTrackId": 6,
+    "Strategy": 0,
+    "Lessons": [
+      {
+        "Name": "HTML",
+        "Path": "01 HTML/0-Intro.md",
+        "Type": 1,
+        "Interpreter": 1,
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "HTML the de facto language of the web",
+            "Path": "01 HTML/1-HTML_thede_facto_language_of_the_web.md",
+            "Type": 1,
+            "Interpreter": 1
+          },
+          {
+            "Name": "Choose your editor",
+            "Path": "01 HTML/2-Choose_your_editor.md",
+            "Type": 1,
+            "Interpreter": 1
+          }
+        ]
+      }
+    ]
+  },
+  "Backup": false,
+  "BackupOldMap": false
+}

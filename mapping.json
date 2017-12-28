@@ -25,6 +25,18 @@
             "Path": "01 HTML/2-Choose_your_editor.md",
             "Type": 1,
             "Interpreter": 1
+          },
+          {
+            "Name": "Create HTML elements with tags",
+            "Path": "01 HTML/3-Create_HTML_elements_with_tags.md",
+            "Type": 1,
+            "Interpreter": 1
+          },
+          {
+            "Name": "When tags can only do so much, use attributes",
+            "Path": "01 HTML/4-When_tags_can_only_do_so_much_use_Attributes.md",
+            "Type": 1,
+            "Interpreter": 1
           }
         ]
       }

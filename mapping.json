@@ -123,6 +123,24 @@
       }
     ]
   },
+   "NewModules": [
+          {
+              "Name": "Kickstart",
+              "Color": "#1abc9c"
+              
+          },
+         {
+              "Name": "Power Up",
+              "Color": "#2ecc71"
+              
+          },
+          {
+              "Name": "Launch",
+              "Color": "#3498db"
+              
+          }
+          ],
+          
   "Backup": false,
   "BackupOldMap": false
 }

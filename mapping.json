@@ -121,9 +121,7 @@
           }
         ]
       }
-    ]
-  },
-   "NewModules": [
+    ],  "NewModules": [
           {
               "Name": "Kickstart",
               "Color": "#1abc9c"
@@ -139,7 +137,10 @@
               "Color": "#3498db"
               
           }
-          ],
+          ]
+
+  },
+
           
   "Backup": false,
   "BackupOldMap": false

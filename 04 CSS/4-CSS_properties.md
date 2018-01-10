@@ -84,7 +84,7 @@
   ```
 * other values of the `position` property:
   <iframe
-    src="https://mdn.mozillademos.org/en-US/docs/Web/CSS/position$samples/position?revision=1311607"
+    src="https://interactive-examples.mdn.mozilla.net/pages/css/position.html"
     class="live-sample-frame example-outcome-frame"
     width="1200"
     height="300"

@@ -1,0 +1,275 @@
+{
+  "Lessons": [
+    {
+      "ModuleId": 1,
+      "Module": {
+        "SubTrackId": 13,
+        "SubTrack": null,
+        "Name": "Kickstart",
+        "Color": "#1abc9c",
+        "OrderIndicator": 0,
+        "Lessons": [
+          {
+            "ModuleId": 1,
+            "Name": "HTML Forms",
+            "Content": "<p>In this module, we will learn how to get information from the user using HTML forms</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 3,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 2
+          },
+          {
+            "ModuleId": 1,
+            "Name": "CSS",
+            "Content": "<p>In this module, we will learn how to customize HTML elements using the language of web design: CSS</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 6,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 3
+          },
+          {
+            "ModuleId": 1,
+            "Name": "Javascript",
+            "Content": "<p>This module is going to introduce us to the programming language of the web and more: Javascript</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 9,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 4
+          }
+        ],
+        "Id": 1
+      },
+      "Name": "HTML",
+      "Content": "<p>In this module we will learn the language of web content creation: HTML</p>\n",
+      "SandboxUrl": "",
+      "OrderIndicator": 0,
+      "Slides": null,
+      "Progress": 0.0,
+      "Id": 1
+    },
+    {
+      "ModuleId": 1,
+      "Module": {
+        "SubTrackId": 13,
+        "SubTrack": null,
+        "Name": "Kickstart",
+        "Color": "#1abc9c",
+        "OrderIndicator": 0,
+        "Lessons": [
+          {
+            "ModuleId": 1,
+            "Name": "HTML",
+            "Content": "<p>In this module we will learn the language of web content creation: HTML</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 0,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 1
+          },
+          {
+            "ModuleId": 1,
+            "Name": "CSS",
+            "Content": "<p>In this module, we will learn how to customize HTML elements using the language of web design: CSS</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 6,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 3
+          },
+          {
+            "ModuleId": 1,
+            "Name": "Javascript",
+            "Content": "<p>This module is going to introduce us to the programming language of the web and more: Javascript</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 9,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 4
+          }
+        ],
+        "Id": 1
+      },
+      "Name": "HTML Forms",
+      "Content": "<p>In this module, we will learn how to get information from the user using HTML forms</p>\n",
+      "SandboxUrl": "",
+      "OrderIndicator": 3,
+      "Slides": null,
+      "Progress": 0.0,
+      "Id": 2
+    },
+    {
+      "ModuleId": 1,
+      "Module": {
+        "SubTrackId": 13,
+        "SubTrack": null,
+        "Name": "Kickstart",
+        "Color": "#1abc9c",
+        "OrderIndicator": 0,
+        "Lessons": [
+          {
+            "ModuleId": 1,
+            "Name": "HTML",
+            "Content": "<p>In this module we will learn the language of web content creation: HTML</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 0,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 1
+          },
+          {
+            "ModuleId": 1,
+            "Name": "HTML Forms",
+            "Content": "<p>In this module, we will learn how to get information from the user using HTML forms</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 3,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 2
+          },
+          {
+            "ModuleId": 1,
+            "Name": "Javascript",
+            "Content": "<p>This module is going to introduce us to the programming language of the web and more: Javascript</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 9,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 4
+          }
+        ],
+        "Id": 1
+      },
+      "Name": "CSS",
+      "Content": "<p>In this module, we will learn how to customize HTML elements using the language of web design: CSS</p>\n",
+      "SandboxUrl": "",
+      "OrderIndicator": 6,
+      "Slides": null,
+      "Progress": 0.0,
+      "Id": 3
+    },
+    {
+      "ModuleId": 1,
+      "Module": {
+        "SubTrackId": 13,
+        "SubTrack": null,
+        "Name": "Kickstart",
+        "Color": "#1abc9c",
+        "OrderIndicator": 0,
+        "Lessons": [
+          {
+            "ModuleId": 1,
+            "Name": "HTML",
+            "Content": "<p>In this module we will learn the language of web content creation: HTML</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 0,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 1
+          },
+          {
+            "ModuleId": 1,
+            "Name": "HTML Forms",
+            "Content": "<p>In this module, we will learn how to get information from the user using HTML forms</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 3,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 2
+          },
+          {
+            "ModuleId": 1,
+            "Name": "CSS",
+            "Content": "<p>In this module, we will learn how to customize HTML elements using the language of web design: CSS</p>\n",
+            "SandboxUrl": "",
+            "OrderIndicator": 6,
+            "Slides": null,
+            "Progress": 0.0,
+            "Id": 3
+          }
+        ],
+        "Id": 1
+      },
+      "Name": "Javascript",
+      "Content": "<p>This module is going to introduce us to the programming language of the web and more: Javascript</p>\n",
+      "SandboxUrl": "",
+      "OrderIndicator": 9,
+      "Slides": null,
+      "Progress": 0.0,
+      "Id": 4
+    }
+  ],
+  "Slides": [],
+  "Modules": [
+    {
+      "SubTrackId": 13,
+      "SubTrack": null,
+      "Name": "Kickstart",
+      "Color": "#1abc9c",
+      "OrderIndicator": 0,
+      "Lessons": [
+        {
+          "ModuleId": 1,
+          "Name": "HTML",
+          "Content": "<p>In this module we will learn the language of web content creation: HTML</p>\n",
+          "SandboxUrl": "",
+          "OrderIndicator": 0,
+          "Slides": null,
+          "Progress": 0.0,
+          "Id": 1
+        },
+        {
+          "ModuleId": 1,
+          "Name": "HTML Forms",
+          "Content": "<p>In this module, we will learn how to get information from the user using HTML forms</p>\n",
+          "SandboxUrl": "",
+          "OrderIndicator": 3,
+          "Slides": null,
+          "Progress": 0.0,
+          "Id": 2
+        },
+        {
+          "ModuleId": 1,
+          "Name": "CSS",
+          "Content": "<p>In this module, we will learn how to customize HTML elements using the language of web design: CSS</p>\n",
+          "SandboxUrl": "",
+          "OrderIndicator": 6,
+          "Slides": null,
+          "Progress": 0.0,
+          "Id": 3
+        },
+        {
+          "ModuleId": 1,
+          "Name": "Javascript",
+          "Content": "<p>This module is going to introduce us to the programming language of the web and more: Javascript</p>\n",
+          "SandboxUrl": "",
+          "OrderIndicator": 9,
+          "Slides": null,
+          "Progress": 0.0,
+          "Id": 4
+        }
+      ],
+      "Id": 1
+    },
+    {
+      "SubTrackId": 13,
+      "SubTrack": null,
+      "Name": "Power Up",
+      "Color": "#2ecc71",
+      "OrderIndicator": 3,
+      "Lessons": null,
+      "Id": 2
+    },
+    {
+      "SubTrackId": 13,
+      "SubTrack": null,
+      "Name": "Launch",
+      "Color": "#3498db",
+      "OrderIndicator": 6,
+      "Lessons": null,
+      "Id": 3
+    }
+  ]
+}

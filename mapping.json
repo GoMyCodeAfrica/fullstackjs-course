@@ -158,6 +158,6 @@
   },
 
 
-  "Backup": false,
-  "BackupOldMap": false
+  "Backup": true,
+  "BackupOldMap": true
 }

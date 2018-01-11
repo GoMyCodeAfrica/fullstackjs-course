@@ -134,7 +134,7 @@
           }
         ]
       }
-    ],  "NewModules": [
+    ],  "Modules": [
           {
               "Name": "Kickstart",
               "Color": "#1abc9c"

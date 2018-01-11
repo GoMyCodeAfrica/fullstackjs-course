@@ -3,6 +3,7 @@
   "Import": {
     "SubTrackId": 13,
     "Strategy": 0,
+    "MigrationVersion": 1,
     "Lessons": [
       {
         "Name": "HTML",
@@ -134,23 +135,24 @@
           }
         ]
       }
-    ],  "Modules": [
-          {
-              "Name": "Kickstart",
-              "Color": "#1abc9c"
-              
-          },
-         {
-              "Name": "Power Up",
-              "Color": "#2ecc71"
-              
-          },
-          {
-              "Name": "Launch",
-              "Color": "#3498db"
-              
-          }
-          ]
+    ],
+    "Modules": [
+      {
+        "Name": "Kickstart",
+        "Color": "#1abc9c"
+
+      },
+      {
+        "Name": "Power Up",
+        "Color": "#2ecc71"
+
+      },
+      {
+        "Name": "Launch",
+        "Color": "#3498db"
+
+      }
+    ]
 
   },
 

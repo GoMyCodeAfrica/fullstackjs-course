@@ -1,9 +1,10 @@
 {
-  "SupportedContentExtensions": [".md" ],
+  "SupportedContentExtensions": [ ".md" ],
+  "MigrationVersion": 1,
   "Import": {
     "SubTrackId": 13,
     "Strategy": 0,
-    "MigrationVersion": 1,
+
     "Lessons": [
       {
         "Name": "HTML",
@@ -156,7 +157,7 @@
 
   },
 
-          
+
   "Backup": false,
   "BackupOldMap": false
 }

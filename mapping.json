@@ -1,0 +1,163 @@
+{
+  "SupportedContentExtensions": [ ".md" ],
+  "MigrationVersion": 1,
+  "Import": {
+    "SubTrackId": 13,
+    "Strategy": 0,
+
+    "Lessons": [
+      {
+        "Name": "HTML",
+        "Path": "01 HTML/0-Intro.md",
+        "Type": 1,
+        "Interpreter": 1,
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "HTML the de facto language of the web",
+            "Path": "01 HTML/1-HTML_thede_facto_language_of_the_web.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "Choose your editor",
+            "Path": "01 HTML/2-Choose_your_editor.md",
+            "Type": 1,
+            "Interpreter": 1
+          },
+          {
+            "Name": "Create HTML elements with tags",
+            "Path": "01 HTML/3-Create_HTML_elements_with_tags.md",
+            "Type": 1,
+            "Interpreter": 1
+          },
+          {
+            "Name": "When tags can only do so much, use attributes",
+            "Path": "01 HTML/4-When_tags_can_only_do_so_much_use_Attributes.md",
+            "Type": 1,
+            "Interpreter": 1
+          },
+          {
+            "Name": "Exercices: recreating landing pages using HTML only",
+            "Path": "01 HTML/5_exercice_build mockups.md",
+            "Type": 1,
+            "Interpreter": 1
+          }
+        ]
+      },
+      {
+        "Name": "HTML Forms",
+        "Path": "03 HTML forms/0-Intro.md",
+        "Type": 1,
+        "Interpreter": 1,
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "Collecting data from the user",
+            "Path": "03 HTML forms/1-Collecting_data_from_user.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "Form validation",
+            "Path": "03 HTML forms/2-Form_validation.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "Exercices: more landing pages",
+            "Path": "03 HTML forms/3-exercices.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "CSS",
+        "Path": "04 CSS/0-Intro.md",
+        "Type": 1,
+        "Interpreter": 1,
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "CSS, the language of web design",
+            "Path": "04 CSS/1-CSS_the_language_of_web_design.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "Attach CSS to your HTML files",
+            "Path": "04 CSS/2-Attach_CSS_to_you_HTML_files.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "Target HTML elements with CSS selectors",
+            "Path": "04 CSS/3-Target_HTML_elements_with_CSS_selectors.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "CSS properties",
+            "Path": "04 CSS/4-CSS_properties.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          },
+          {
+            "Name": "CSS values",
+            "Path": "04 CSS/5-CSS_values.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          }
+        ]
+      },
+      {
+        "Name": "Javascript",
+        "Path": "05 Javascript/0_Intro.md",
+        "Type": 1,
+        "Interpreter": 1,
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "CSS, the language of web design",
+            "Path": "05 Javascript/1_what_is_javascript.md",
+            "Type": 1,
+            "Interpreter": 1,
+            "Url": null
+          }
+        ]
+      }
+    ],
+    "Modules": [
+      {
+        "Name": "Kickstart",
+        "Color": "#1abc9c"
+
+      },
+      {
+        "Name": "Power Up",
+        "Color": "#2ecc71"
+
+      },
+      {
+        "Name": "Launch",
+        "Color": "#3498db"
+
+      }
+    ]
+
+  },
+
+
+  "Backup": true,
+  "BackupOldMap": true
+}

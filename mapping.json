@@ -137,6 +137,24 @@
         ]
       },
       {
+        "Name": "Web dev basics",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Name": "Intro to programming",
+            "Path": "00 CS Basics/1-Intro_to_programming.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "Intro to web development",
+            "Path": "00 CS Basics/2-Intro_to_web_development.md",
+            "SandboxUrl": ""
+          }
+        ]
+      },
+      {
         "Id": 5,
         "Name": "Javascript",
         "SandboxUrl": "",
@@ -173,5 +191,5 @@
   "Backup": true,
   "BackupOldMap": true,
   "Email": "arsslens021@gmail.com",
-  "MigrationVersion": 3
+  "MigrationVersion": 4
 }

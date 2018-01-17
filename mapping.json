@@ -272,5 +272,5 @@
   "Backup": true,
   "BackupOldMap": true,
   "Email": "arsslens021@gmail.com",
-  "MigrationVersion": 6
+  "MigrationVersion": 7
 }

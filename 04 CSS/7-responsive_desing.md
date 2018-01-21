@@ -1,3 +1,5 @@
+# Responsive design
+
 ## Def: Responsive web design
 Responsive web design is an approach to web design which makes web pages look good on a all screen sizes.
 

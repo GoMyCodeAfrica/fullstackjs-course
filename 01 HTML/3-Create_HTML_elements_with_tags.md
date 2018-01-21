@@ -1,20 +1,16 @@
 # Getting started with HTML
 
-<strong>Objective: </strong>To gain basic familiarity with the HTML language, and get some practice writing a few HTML elements.
-
 ## Anatomy of HTML element
 
-* HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way.
+  ```code
+  Go My Code
+  ```
 
-* The enclosing tags can make a bit of content into a hyperlink to link to another page on the web, italicize words, and so on.  For example, take the following line of content:
+* If we want this line to become a headline, we can write the following in an HTML file
 
-```code
-My cat is very grumpy
-```
-If we wanted the line to stand by itself, we could specify that it is a paragraph by enclosing it in a paragraph tag  (`<p>`) element:
-```html
-<p>My cat is very grumpy</p>
-```
+  ```html
+  <p>My cat is very grumpy</p>
+  ```
 
 Let's explore our paragraph element a bit further:
 
@@ -22,12 +18,20 @@ Let's explore our paragraph element a bit further:
   <img src="img/grumpy-cat-small.png" alt="">
 </p>
 
-The main parts of our element are:
+The main parts of an HTML element are:
 
-1. <strong>The opening tag</strong>: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins, or starts to take effect — in this case where the start of the paragraph is.
-2. <strong>The closing tag</strong>: This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the end of the paragraph is. Failing to include a closing tag is a common beginner error and can lead to strange results.
-3. <strong>The content</strong>: This is the content of the element, which in this case is just text.
-4. <strong>The element</strong>: The opening tag plus the closing tag plus the content equals the element.
+1. **The opening tag**:
+  * the name of the element, wrapped in opening and closing angle brackets `<>`.
+  * This states where the element begins, or starts to take effect.
+
+2. **The closing tag**:
+  * This is the same as the opening tag, except that it includes a forward slash before the element name.
+  * This states where the element ends.
+  * Failing to include a closing tag is a common beginner error and can lead to strange results.
+
+3. **The content**:
+  This is the content of the element, which in this case is just text.
+4. **The element = opening tag + content + closing tag**
 
 ## Nesting elements
 

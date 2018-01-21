@@ -1,4 +1,4 @@
-## Intro
+# Importing
 
 * We can import external CSS files, fonts and more
 * To import another CSS file using the following syntax:

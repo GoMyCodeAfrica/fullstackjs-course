@@ -1,60 +1,53 @@
 
-# jQuery quiz
-
-Fork this <a href="https://codepen.io/morfioce/pen/WXbBoX">code pen</a>
-
 ## What's jQuery
 
->	jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers.
-																			 -- jQuery documentation
+>	jQuery is a fast, small, and feature-rich **JavaScript library**. It makes things like HTML document traversal and **manipulation**, **event** handling, animation, and **Ajax** much simpler with an easy-to-use API that works across a **multitude of browsers**. – *jQuery docs*
 
-## Add/remove classes from an element using .toggleClass()
+## Understanding jQuery
 
-Use the `toggleClass` to remove the class featured
+```html
+<!DOCTYPE html>
+<html lang="en">
 
-<a href="http://api.jquery.com/toggleclass/">Documentation on .toggleClass()</a>
+	<body>
+		<!-- jQuery will change this -->
+		<a href=""></a>
+		<!-- to this <a href="http://www.jquery.com">link to jQuery's offficial website</a> -->
+		<script src="https://code.jquery.com/jquery-3.3.0.js"
+		></script>
+		<script>
+			$('a')
+				.text('link to jQuery\'s offficial website')
+				.attr('href', 'http://www.jquery.com')
 
-## Get the sublings of an element using .next() and .prev()'
+			console.log($('a').text())
+		</script>
+	</body>
+</html>
+```
 
-Use the `.prev()` or `.next()` method to add `featured` class to main-article sublings.
+* As you can see jQuery is based on few simple concepts:
+	1. **Select** a target element(s)
+	2. **Call methods** on target elements
+	3. You can **chain** method calls
+	4. Methods can act as both **getters** and **setters**:
+		* Getter: if you call it without parameters `.text()`
+		* Setter: if you call it with parameters `.text('')`
 
-<a href="http://api.jquery.com/next/">Documentation on .next()</a>
+## Activity: play around with DOM
 
-## Changing the properties of an element using .prop()
+> Try doing using only google for help. If you get stuck, you can have a quick glance at the hints below.
 
-Use `.first()` and `.prop()` to add an `href` property to the first anchor tag.
+1. Fork this <a href="https://codepen.io/ghsamm/pen/xpMaYq">code pen</a>
+* Remove the class `featured`
+* Add `featured` class to main-article siblings.
+* Add an `href` property to the first anchor tag.
+* Set the `font-size` to `20px` for all paragraphs
+* Change the heading to `Hello world again`
+* Remove the last item in the list.
+* Each time the user clicks the "Again" button, add the word " again" to the header
 
-## Change the css of an element using .css()
-
-Use `.css()` method to set the `font-size` to 20 px for all paragraphs
-
-## Change the text or html of element using .text() and .html()
-
-Use the `text()` and `.val()` method to change the heading each time the user type in the input field.
-
-<a href="http://api.jquery.com/val/">Documentation on .val()</a>
-
-<a href="http://api.jquery.com/html/">Documentation on .html()</a>
-
-<a href="http://api.jquery.com/text/">Documentation on .text()</a>
-
-## .remove()
-
-Use `.remove()` to remove the last item in the list.
-
-<a href="http://api.jquery.com/remove/">Documentation on .remove()</a>
-
-## Insert elements using .append()/.prepend() and .insertBefore()/.insertAfter()
-
-Use the above methode to add HTML elements to our page and try to tell the difference.
-
-<a href="http://api.jquery.com/append/">Documentation on .append()</a>
-
-<a href="http://api.jquery.com/prepend/">Documentation on .prepend()</a>
-
-<a href="http://api.jquery.com/insertBefore/">Documentation on .insertBefore()</a>
-
-<a href="http://api.jquery.com/insertAfter/">Documentation on .insertAfter()</a>
+	Hints: `next`, `prev`, `remove`, `click`, `last`, `css`, `first`, `toggleClass`, `val`, `attr`, `text`
 
 ## Building a DOM tree
 
@@ -63,33 +56,3 @@ Try to build the following DOM tree
 <p align="center">
 	<img src="images/dom_tree.png">
 </p>
-
-## Iterating with Each
-
-Iterate over all paragraphs and add the number of characters at the end as part the paragrph text.
-
-<a href="http://api.jquery.com/each/">Documentation on .each()</a>
-
-## Why jQuery is so popular ?
-
-You have had the chance to try it out? Why do so many developers use jQuery?
-
-* Fast selection
-
-* Easy DOM manipulation
-
-* Cross-Browser compatibility
-
-* Faster page loads
-
-* It makes you happy
-
-* Other reasons
-
-## Tips
-
-Want faster page loads? Use a CDN!
-
-It's also worth noting that because so many websites use jQuery, there's a very good chance that your users' browsers have already cached the same copy of jQuery that you want to use.
-
-If you use a CDN, your users' browsers will recognize that they already have a cached copy of jQuery from the same CDN when your site loads, which means that they don't need to download it again. So those extra KBs from jquery.min.js won't be downloaded and your site will load faster!

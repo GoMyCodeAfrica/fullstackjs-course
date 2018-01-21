@@ -46,7 +46,7 @@ A click on the inner `<p>` first runs onclick:
 4. And so on upwards till the document object.
 
 <p align="center">
-  <img src="../resources/images/event-order-bubbling.png">
+  <img src="images/event-order-bubbling.png">
 </p>
 
 So if we click on `<p>`, then we’ll see 3 alerts:` p → div → form`.

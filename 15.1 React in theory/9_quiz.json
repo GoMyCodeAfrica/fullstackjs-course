@@ -1,0 +1,117 @@
+{
+  "Name": "Quiz - React in theory",
+  "OrderIndicator": 0,
+  "Questions": [
+    {
+      "Content": "How many HTML pages does an SPA need ?",
+      "Choices": [
+        {
+          "Content": "None",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "Just one",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "At least two",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "More than 8",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ],
+      "Path": null
+    },
+    {
+      "Content": "What is ReactJS ?",
+      "Choices": [
+        {
+          "Content": "A front-end library",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "A javascript library",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "A CSS library",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "A UI library",
+          "IsCorrect": true,
+          "Path": null
+        }
+      ],
+      "Path": null
+    },
+    {
+      "Content": "React is open-source",
+      "Choices": [
+        {
+          "Content": "True",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "False",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ],
+      "Path": null
+    },
+    {
+      "Content": "The code of react is hosted on",
+      "Choices": [
+        {
+          "Content": "Github",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "Gitlab",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "Stackoverflow",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "In a private facebook repo",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ],
+      "Path": null
+    },
+    {
+      "Content": "React's architecture is based on",
+      "Choices": [
+        {
+          "Content": "Components",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "MVC",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ],
+      "Path": null
+    }
+  ],
+  "Path": null
+}

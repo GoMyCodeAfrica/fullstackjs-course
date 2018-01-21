@@ -20,12 +20,6 @@
             "SandboxUrl": ""
           },
           {
-            "Id": 2,
-            "Name": "Choose your editor",
-            "Path": "01 HTML/2-Choose_your_editor.md",
-            "SandboxUrl": ""
-          },
-          {
             "Id": 3,
             "Name": "Create HTML elements with tags",
             "Path": "01 HTML/3-Create_HTML_elements_with_tags.md",

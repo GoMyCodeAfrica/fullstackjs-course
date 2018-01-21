@@ -354,7 +354,7 @@
           }
         ],
         "Quizzes": []
-      }
+      },
       {
         "Name": "jQuery",
         "SandboxUrl": "",
@@ -391,5 +391,5 @@
   "Backup": true,
   "BackupOldMap": true,
   "Email": "arsslens021@gmail.com",
-  "MigrationVersion": 13
+  "MigrationVersion": 12
 }

@@ -1,3 +1,4 @@
+# jQuery
 
 ## What's jQuery
 
@@ -27,12 +28,12 @@
 ```
 
 * As you can see jQuery is based on few simple concepts:
-	1. **Select** a target element(s)
-	2. **Call methods** on target elements
-	3. You can **chain** method calls
+	1. **Select** a target element(s) `$('a')`
+	2. **Call methods** on target elements `.text('..')`
+	3. You can **chain** method calls `.text('..').attr('..')`
 	4. Methods can act as both **getters** and **setters**:
 		* Getter: if you call it without parameters `.text()`
-		* Setter: if you call it with parameters `.text('')`
+		* Setter: if you call it with parameters `.text('..')`
 
 ## Activity: play around with DOM
 
@@ -40,8 +41,8 @@
 
 1. Fork this <a href="https://codepen.io/ghsamm/pen/xpMaYq">code pen</a>
 * Remove the class `featured`
-* Add `featured` class to main-article siblings.
-* Add an `href` property to the first anchor tag.
+* Add `featured` class to `.main-article` siblings.
+* Add an `href` attribute to the first anchor tag.
 * Set the `font-size` to `20px` for all paragraphs
 * Change the heading to `Hello world again`
 * Remove the last item in the list.

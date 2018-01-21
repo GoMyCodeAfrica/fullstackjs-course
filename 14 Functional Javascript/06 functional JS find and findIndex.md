@@ -4,7 +4,7 @@
 
 * If you understand `filter`, `find` is very similar
 * `Array.prototype.find` takes the exact arguments as `Array.prototype.filter`
-* The `find` returns:
+* The `find` method returns:
   * the first element that succeeds in the `testFn`
   * `undefined` if all elements fail
 

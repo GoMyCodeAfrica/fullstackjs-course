@@ -1,1 +1,504 @@
-{"SupportedContentExtensions":[".md"],"Import":{"SubTrackId":13,"Strategy":0,"Lessons":[{"Id":1,"Name":"HTML","SandboxUrl":"","Path":"01 HTML/0-Intro.md","Module":"Kickstart","Slides":[{"Id":1,"Name":"HTML the de facto language of the web","Path":"01 HTML/1-HTML_thede_facto_language_of_the_web.md","SandboxUrl":""},{"Id":3,"Name":"Create HTML elements with tags","Path":"01 HTML/3-Create_HTML_elements_with_tags.md","SandboxUrl":""},{"Id":4,"Name":"When tags can only do so much, use attributes","Path":"01 HTML/4-When_tags_can_only_do_so_much_use_Attributes.md","SandboxUrl":""},{"Id":5,"Name":"Exercices: recreating landing pages using HTML only","Path":"01 HTML/5_exercice_build mockups.md","SandboxUrl":""}],"Quizzes":[{"Id":2,"Name":"HTML Quiz","OrderIndicator":0,"Questions":[{"Id":3,"Content":"​HTML stands for","Choices":[{"Id":11,"Content":"Hyper Terminal Markup Language","IsCorrect":false,"Path":null},{"Id":12,"Content":"Hot Text Markdown Language","IsCorrect":false,"Path":null},{"Id":13,"Content":"Hyper-Text Markup Language","IsCorrect":true,"Path":null},{"Id":14,"Content":"Hover Text Make-up Language","IsCorrect":false,"Path":null},{"Id":15,"Content":"Hail Tail Main Language","IsCorrect":false,"Path":null}],"Path":null},{"Id":4,"Content":"​HTML code is written","Choices":[{"Id":16,"Content":"In a simple text format","IsCorrect":true,"Path":null},{"Id":17,"Content":"In a dedicated code editor","IsCorrect":false,"Path":null},{"Id":18,"Content":"In a special machine language","IsCorrect":false,"Path":null},{"Id":19,"Content":"Using the keyboard","IsCorrect":true,"Path":null},{"Id":20,"Content":"In a specific OS","IsCorrect":false,"Path":null}],"Path":null}],"Path":null}]},{"Id":2,"Name":"HTML Forms","SandboxUrl":"","Path":"03 HTML forms/0-Intro.md","Module":"Kickstart","Slides":[{"Id":6,"Name":"Collecting data from the user","Path":"03 HTML forms/1-Collecting_data_from_user.md","SandboxUrl":""},{"Id":7,"Name":"Form validation","Path":"03 HTML forms/2-Form_validation.md","SandboxUrl":""},{"Id":8,"Name":"Exercices: more landing pages","Path":"03 HTML forms/3-exercices.md","SandboxUrl":""}],"Quizzes":[]},{"Id":3,"Name":"CSS","SandboxUrl":"","Path":"04 CSS/0-Intro.md","Module":"Kickstart","Slides":[{"Id":9,"Name":"CSS, the language of web design","Path":"04 CSS/1-CSS_the_language_of_web_design.md","SandboxUrl":""},{"Id":10,"Name":"Attach CSS to your HTML files","Path":"04 CSS/2-Attach_CSS_to_you_HTML_files.md","SandboxUrl":""},{"Id":11,"Name":"Target HTML elements with CSS selectors","Path":"04 CSS/3-Target_HTML_elements_with_CSS_selectors.md","SandboxUrl":""},{"Id":12,"Name":"CSS properties","Path":"04 CSS/4-CSS_properties.md","SandboxUrl":""},{"Id":13,"Name":"CSS values","Path":"04 CSS/5-CSS_values.md","SandboxUrl":""},{"Id":74,"Name":"Importing","Path":"04 CSS/6-importing.md","SandboxUrl":""},{"Id":75,"Name":"Responsive design","Path":"04 CSS/7-responsive_desing.md","SandboxUrl":""}],"Quizzes":[]},{"Id":4,"Name":"Project: Personal portfolio","SandboxUrl":"","Path":"empty.md","Module":"Kickstart","Slides":[{"Id":14,"Name":"Project: Personal portfolio","Path":"projects/Personal Portfolio/instructions.md","SandboxUrl":""}],"Quizzes":[]},{"Id":25,"Name":"Web dev basics","SandboxUrl":"","Path":"empty.md","Module":"Kickstart","Slides":[{"Id":76,"Name":"Intro to programming","Path":"00 CS Basics/1-Intro_to_programming.md","SandboxUrl":""},{"Id":77,"Name":"Intro to web development","Path":"00 CS Basics/2-Intro_to_web_development.md","SandboxUrl":""}],"Quizzes":[]},{"Id":5,"Name":"Javascript","SandboxUrl":"","Path":"05 Javascript/1-introduction.md","Module":"Kickstart","Slides":[{"Id":78,"Name":"Introduction","Path":"05 Javascript/1-introduction.md","SandboxUrl":""},{"Id":79,"Name":"The script tag","Path":"05 Javascript/2-script-tag.md","SandboxUrl":""},{"Id":80,"Name":"Strict mode","Path":"05 Javascript/3-strict-mode.md","SandboxUrl":""},{"Id":81,"Name":"Data types","Path":"05 Javascript/4-data-types.md","SandboxUrl":""},{"Id":82,"Name":"Type conversion","Path":"05 Javascript/5-type-converstions.md","SandboxUrl":""},{"Id":83,"Name":"Operators","Path":"05 Javascript/6-operators.md","SandboxUrl":""},{"Id":117,"Name":"Logical operators","Path":"05 Javascript/7-logical-operators.md","SandboxUrl":""},{"Id":118,"Name":"Loops","Path":"05 Javascript/8-loops.md","SandboxUrl":""}],"Quizzes":[]},{"Id":26,"Name":"DOM","SandboxUrl":"","Path":"empty.md","Module":"Kickstart","Slides":[{"Id":119,"Name":"Introduction","Path":"06 DOM/1-introduction.md","SandboxUrl":""},{"Id":120,"Name":"DOM tree","Path":"06 DOM/2-dom-tree.md","SandboxUrl":""},{"Id":121,"Name":"Walking the DOM tree","Path":"06 DOM/3-walking-dom-tree.md","SandboxUrl":""},{"Id":122,"Name":"Searching DOM elements","Path":"06 DOM/4-searching-elements-dom.md","SandboxUrl":""}],"Quizzes":[]},{"Id":32,"Name":"Events","SandboxUrl":"","Path":"empty.md","Module":"Kickstart","Slides":[{"Id":165,"Name":"Introduction","Path":"07 Events/1-introduction.md","SandboxUrl":""},{"Id":166,"Name":"Bubbling and capturing","Path":"07 Events/2-bubbling-and-capturing.md","SandboxUrl":""}],"Quizzes":[]},{"Id":35,"Name":"Functions","SandboxUrl":"","Path":"empty.md","Module":"Power Up","Slides":[{"Id":173,"Name":"Functions","Path":"05.1 functions/01 intro.md","SandboxUrl":""},{"Id":174,"Name":"Arrow functions","Path":"05.1 functions/02 arrow functions.md","SandboxUrl":""},{"Id":175,"Name":"Function guidelines","Path":"05.1 functions/03 function guideline.md","SandboxUrl":""}],"Quizzes":[]},{"Id":33,"Name":"jQuery","SandboxUrl":"","Path":"empty.md","Module":"Power Up","Slides":[{"Id":167,"Name":"Introduction","Path":"08 JQuery/jquery.md","SandboxUrl":""}],"Quizzes":[]},{"Id":34,"Name":"Functional JS","SandboxUrl":"","Path":"empty.md","Module":"Power Up","Slides":[{"Id":168,"Name":"Functional Programming","Path":"14 Functional Javascript/01 Intro.md","SandboxUrl":""},{"Id":169,"Name":"Functional JS","Path":"14 Functional Javascript/03 functional JS.md","SandboxUrl":""},{"Id":170,"Name":"map","Path":"14 Functional Javascript/04 functional JS map.md","SandboxUrl":""},{"Id":171,"Name":"filter","Path":"14 Functional Javascript/05 functional JS filter.md","SandboxUrl":""},{"Id":172,"Name":"find and findIndex","Path":"14 Functional Javascript/06 functional JS find and findIndex.md","SandboxUrl":""}],"Quizzes":[]}],"Modules":[{"Id":1,"Name":"Kickstart","Color":"#1abc9c"},{"Id":2,"Name":"Power Up","Color":"#2ecc71"},{"Id":3,"Name":"Launch","Color":"#3498db"}]},"Backup":true,"BackupOldMap":true,"Email":"arsslens021@gmail.com","MigrationVersion":14}
+{
+  "SupportedContentExtensions": [
+    ".md"
+  ],
+  "Import": {
+    "SubTrackId": 13,
+    "Strategy": 0,
+    "Lessons": [
+      {
+        "Id": 1,
+        "Name": "HTML",
+        "SandboxUrl": "",
+        "Path": "01 HTML/0-Intro.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 1,
+            "Name": "HTML the de facto language of the web",
+            "Path": "01 HTML/1-HTML_thede_facto_language_of_the_web.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 3,
+            "Name": "Create HTML elements with tags",
+            "Path": "01 HTML/3-Create_HTML_elements_with_tags.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 4,
+            "Name": "When tags can only do so much, use attributes",
+            "Path": "01 HTML/4-When_tags_can_only_do_so_much_use_Attributes.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 5,
+            "Name": "Exercices: recreating landing pages using HTML only",
+            "Path": "01 HTML/5_exercice_build mockups.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": [
+          {
+            "Id": 2,
+            "Name": "HTML Quiz",
+            "OrderIndicator": 0,
+            "Questions": [
+              {
+                "Id": 3,
+                "Content": "​HTML stands for",
+                "Choices": [
+                  {
+                    "Id": 11,
+                    "Content": "Hyper Terminal Markup Language",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Id": 12,
+                    "Content": "Hot Text Markdown Language",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Id": 13,
+                    "Content": "Hyper-Text Markup Language",
+                    "IsCorrect": true,
+                    "Path": null
+                  },
+                  {
+                    "Id": 14,
+                    "Content": "Hover Text Make-up Language",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Id": 15,
+                    "Content": "Hail Tail Main Language",
+                    "IsCorrect": false,
+                    "Path": null
+                  }
+                ],
+                "Path": null
+              },
+              {
+                "Id": 4,
+                "Content": "​HTML code is written",
+                "Choices": [
+                  {
+                    "Id": 16,
+                    "Content": "In a simple text format",
+                    "IsCorrect": true,
+                    "Path": null
+                  },
+                  {
+                    "Id": 17,
+                    "Content": "In a dedicated code editor",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Id": 18,
+                    "Content": "In a special machine language",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Id": 19,
+                    "Content": "Using the keyboard",
+                    "IsCorrect": true,
+                    "Path": null
+                  },
+                  {
+                    "Id": 20,
+                    "Content": "In a specific OS",
+                    "IsCorrect": false,
+                    "Path": null
+                  }
+                ],
+                "Path": null
+              }
+            ],
+            "Path": null
+          }
+        ]
+      },
+      {
+        "Id": 2,
+        "Name": "HTML Forms",
+        "SandboxUrl": "",
+        "Path": "03 HTML forms/0-Intro.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 6,
+            "Name": "Collecting data from the user",
+            "Path": "03 HTML forms/1-Collecting_data_from_user.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 7,
+            "Name": "Form validation",
+            "Path": "03 HTML forms/2-Form_validation.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 8,
+            "Name": "Exercices: more landing pages",
+            "Path": "03 HTML forms/3-exercices.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 3,
+        "Name": "CSS",
+        "SandboxUrl": "",
+        "Path": "04 CSS/0-Intro.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 9,
+            "Name": "CSS, the language of web design",
+            "Path": "04 CSS/1-CSS_the_language_of_web_design.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 10,
+            "Name": "Attach CSS to your HTML files",
+            "Path": "04 CSS/2-Attach_CSS_to_you_HTML_files.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 11,
+            "Name": "Target HTML elements with CSS selectors",
+            "Path": "04 CSS/3-Target_HTML_elements_with_CSS_selectors.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 12,
+            "Name": "CSS properties",
+            "Path": "04 CSS/4-CSS_properties.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 13,
+            "Name": "CSS values",
+            "Path": "04 CSS/5-CSS_values.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 74,
+            "Name": "Importing",
+            "Path": "04 CSS/6-importing.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 75,
+            "Name": "Responsive design",
+            "Path": "04 CSS/7-responsive_desing.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 4,
+        "Name": "Project: Personal portfolio",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 14,
+            "Name": "Project: Personal portfolio",
+            "Path": "projects/Personal Portfolio/instructions.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 25,
+        "Name": "Web dev basics",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 76,
+            "Name": "Intro to programming",
+            "Path": "00 CS Basics/1-Intro_to_programming.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 77,
+            "Name": "Intro to web development",
+            "Path": "00 CS Basics/2-Intro_to_web_development.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 5,
+        "Name": "Javascript",
+        "SandboxUrl": "",
+        "Path": "05 Javascript/1-introduction.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 78,
+            "Name": "Introduction",
+            "Path": "05 Javascript/1-introduction.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 79,
+            "Name": "The script tag",
+            "Path": "05 Javascript/2-script-tag.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 80,
+            "Name": "Strict mode",
+            "Path": "05 Javascript/3-strict-mode.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 81,
+            "Name": "Data types",
+            "Path": "05 Javascript/4-data-types.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 82,
+            "Name": "Type conversion",
+            "Path": "05 Javascript/5-type-converstions.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 83,
+            "Name": "Operators",
+            "Path": "05 Javascript/6-operators.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 117,
+            "Name": "Logical operators",
+            "Path": "05 Javascript/7-logical-operators.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 118,
+            "Name": "Loops",
+            "Path": "05 Javascript/8-loops.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 26,
+        "Name": "DOM",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 119,
+            "Name": "Introduction",
+            "Path": "06 DOM/1-introduction.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 120,
+            "Name": "DOM tree",
+            "Path": "06 DOM/2-dom-tree.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 121,
+            "Name": "Walking the DOM tree",
+            "Path": "06 DOM/3-walking-dom-tree.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 122,
+            "Name": "Searching DOM elements",
+            "Path": "06 DOM/4-searching-elements-dom.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 32,
+        "Name": "Events",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Kickstart",
+        "Slides": [
+          {
+            "Id": 165,
+            "Name": "Introduction",
+            "Path": "07 Events/1-introduction.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 166,
+            "Name": "Bubbling and capturing",
+            "Path": "07 Events/2-bubbling-and-capturing.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 35,
+        "Name": "Functions",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Power Up",
+        "Slides": [
+          {
+            "Id": 173,
+            "Name": "Functions",
+            "Path": "05.1 functions/01 intro.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 174,
+            "Name": "Arrow functions",
+            "Path": "05.1 functions/02 arrow functions.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 175,
+            "Name": "Function guidelines",
+            "Path": "05.1 functions/03 function guideline.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Name": "OOP",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Power Up",
+        "Slides": [
+          {
+            "Name": "Objects",
+            "Path": "13 Javascript OOP/1-objects.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "this",
+            "Path": "13 Javascript OOP/2-object-this.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "Object constructor",
+            "Path": "13 Javascript OOP/3-object-constructor.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "Prototypal inheritance",
+            "Path": "13 Javascript OOP/4-prototypal-inheritance.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "Class pattern",
+            "Path": "13 Javascript OOP/5-class-pattern.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Name": "class keyword",
+            "Path": "13 Javascript OOP/6-class-keyword.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 33,
+        "Name": "jQuery",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Power Up",
+        "Slides": [
+          {
+            "Id": 167,
+            "Name": "Introduction",
+            "Path": "08 JQuery/jquery.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      },
+      {
+        "Id": 34,
+        "Name": "Functional JS",
+        "SandboxUrl": "",
+        "Path": "empty.md",
+        "Module": "Power Up",
+        "Slides": [
+          {
+            "Id": 168,
+            "Name": "Functional Programming",
+            "Path": "14 Functional Javascript/01 Intro.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 169,
+            "Name": "Functional JS",
+            "Path": "14 Functional Javascript/03 functional JS.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 170,
+            "Name": "map",
+            "Path": "14 Functional Javascript/04 functional JS map.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 171,
+            "Name": "filter",
+            "Path": "14 Functional Javascript/05 functional JS filter.md",
+            "SandboxUrl": ""
+          },
+          {
+            "Id": 172,
+            "Name": "find and findIndex",
+            "Path": "14 Functional Javascript/06 functional JS find and findIndex.md",
+            "SandboxUrl": ""
+          }
+        ],
+        "Quizzes": []
+      }
+    ],
+    "Modules": [
+      {
+        "Id": 1,
+        "Name": "Kickstart",
+        "Color": "#1abc9c"
+      },
+      {
+        "Id": 2,
+        "Name": "Power Up",
+        "Color": "#2ecc71"
+      },
+      {
+        "Id": 3,
+        "Name": "Launch",
+        "Color": "#3498db"
+      }
+    ]
+  },
+  "Backup": true,
+  "BackupOldMap": true,
+  "Email": "arsslens021@gmail.com",
+  "MigrationVersion": 15
+}

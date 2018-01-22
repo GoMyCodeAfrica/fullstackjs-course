@@ -14,7 +14,7 @@ In JavaScript, objects have a special hidden property **Prototype**
 That object is called **“a prototype”**:
 
 <p align="center">
-  <img src="../assets/images/object-prototype.png">
+  <img src="images/object-prototype.png">
 </p>
 
 * When we read a property from object, and it’s missing, JavaScript automatically look for it in the prototype object.
@@ -51,7 +51,7 @@ alert( rabbit.jumps ); // true
 * when we try to read property **rabbit.eats (**)**, it’s not in **rabbit**, so JavaScript follows the **Prototype** (`__proto__`) reference and finds it in **animal**.
 
 <p align="center">
-  <img src="../assets/images/proto-animal-rabbit.png">
+  <img src="images/proto-animal-rabbit.png">
 </p>
 
 ## Summary

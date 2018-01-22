@@ -38,7 +38,7 @@ user.isAdmin = true;
 ```
 
 <p align="center">
-  <img src="../assets/images/object-user-isadmin.png">
+  <img src="images/object-user-isadmin.png">
 </p>
 
 To remove a property, we can use **delete** operator:

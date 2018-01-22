@@ -41,7 +41,7 @@ user.sayHi();
 Here’s the illustration of what class User creates:
 
 <p align="center">
-  <img src="../assets/images/class-user.png">
+  <img src="images/class-user.png">
 </p>
 
 ## Getters/setters

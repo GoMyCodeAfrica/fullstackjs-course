@@ -461,26 +461,96 @@
                     "Path": null
                   }
                 ]
-              },
+              }
+            ],
+            "Path": null
+          },
+          {
+            "Name": "Quiz - Functions part 2",
+            "OrderIndicator": 0,
+            "Questions": [
               {
-                "Content": "Local variables are",
+                "Content": "Naming functions",
                 "Choices": [
                   {
-                    "Content": "variables accessed only inside a function",
+                    "Content": "You should name your functions randomly because it does not matter that much",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "Good function names improve code readability",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "You should name your functions after your lovely friends names",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "You should name your functions to be the longest as possible",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "You should name your functions in way that describe their role as accurately as possible",
                     "IsCorrect": true,
                     "Path": null
                   },
                   {
-                    "Content": "variables accessed only inside a program",
+                    "Content": "A function's name is part of it's documentation",
+                    "IsCorrect": true,
+                    "Path": null
+                  }
+                ],
+                "Path": null
+              },
+              {
+                "Content": "True or false",
+                "Choices": [
+                  {
+                    "Content": "JavaScript functions should start by the key word **function**",
+                    "IsCorrect": true,
+                    "Path": null
+                  },
+                  {
+                    "Content": "JavaScript functions should take at least one argument",
                     "IsCorrect": false,
                     "Path": null
                   },
                   {
-                    "Content": "variables accessed anywhere",
+                    "Content": "JavaScript functions return undefined if there is no explicit return",
+                    "IsCorrect": true,
+                    "Path": null
+                  }
+                ],
+                "Path": null
+              },
+              {
+                "Content": "Arrow functions",
+                "Choices": [
+                  {
+                    "Content": "The type of an arrow function is Arrow",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "Arrow functions are more powerful than normal functions",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "Arrow functions should be written on one line",
+                    "IsCorrect": false,
+                    "Path": null
+                  },
+                  {
+                    "Content": "Arrow functions always return a value (other than undefined)",
                     "IsCorrect": false,
                     "Path": null
                   }
-                ]
+                ],
+                "Path": null
               }
             ],
             "Path": null

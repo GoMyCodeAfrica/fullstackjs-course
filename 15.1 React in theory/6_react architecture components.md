@@ -30,12 +30,3 @@
 ### Example 2: Airbnb's search page
 
   ![airbnb search page](img/airbnb-screenshot-search.jpg)
-
-
-
----
-
-## 4. Explicit mutations
-
-* React does not allow modifying the app state directly
-* We need to get through the `setState` function to change the local state

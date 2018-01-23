@@ -1,7 +1,7 @@
 ## Activity: who passes the test ?
 
 1. Write a function `passTheExam` that
-  * take an array of numbers `grades`
+  * takes an array of numbers `grades`
   * returns a new array with only the grades greater than 10
 * Change the condition of the graduation to become "greater than 12"
 * The shape of the array has changed, it looks like this now:

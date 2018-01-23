@@ -1,14 +1,16 @@
 # Single Page Applications
 
 ## History of the web
-  * Before AJAX:
-    1. The client sends a request to the server
-    2. The server responds with an HTML page containing all necessary resources(scripts, CSS, images...)
-    3. When the user clicks a link, the browser refreshes the page and **reloads all the resources from the server**
-  * After AJAX:
-    1. (same)
-    2. (same)
-    3. When the user clicks a link, the browser **does not refresh the page** and **only loads new data from the server**
+
+* As we already know, the web is based on the communication between a **client** machine and a **server** machine
+* Before AJAX:
+  1. The client sends a request to the server
+  2. The server responds with an HTML page containing all necessary resources(scripts, CSS, images...)
+  3. When the user clicks a link, the browser refreshes the page and **reloads all the resources from the server**
+* After AJAX:
+  1. (same) The client sends a request to the server
+  2. (same) The server responds with an HTML page containing all necessary resources(scripts, CSS, images...)
+  3. When the user clicks a link, the browser **does not refresh the page** and **only loads new data from the server**
 
 ## Definition: SPA
 

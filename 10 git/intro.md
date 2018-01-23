@@ -1,25 +1,25 @@
 ## Intro to git
 
-* git is a Version Control System
-* In other words, git enables us to manage the history of our projects
+* git is a **Version Control System**
+* In other words, git enables us to manage the **history** of our projects
 * Using git, we can store our current project state in a history tree
 
 ## From directory to repo
 
-* In git terms, the project is called a repo ( or repository)
+* In git terms, the project is called a **repo** ( or repository)
 * To get git to start tracking our project history:
-  * use the command line and move to the project directory
+  1. use the terminal and move to the project directory
   * type the command `git init`
 
 ## What is my status ?
 
 * Another useful command that git offers us is `git status`
-* This command gives us information about what files are saved in the git history tree and what files are not
+* This command gives us **information** about what files are saved in the git history tree and what files are not
 * Files can be in one of the following states:
-  * Untracked: git does not track the changes of these files, it ignores them
-  * Unchanged: these files are tracked by git but they have not been changed
-  * Unstaged changes: when a file has been changed, git detects it. But we have to add it to the **stage**, in perparation to save it
-  * Staged changes: are staged to be added to the next **commit**
+  * **Untracked**: git does not track the changes of these files, it ignores them
+  * **Unchanged**: these files are tracked by git but they have not been changed
+  * **Unstaged changes**: when a file has been changed, git detects it. But we have to add it to the **stage**, in perparation to save it
+  * **Staged changes**: are staged to be added to the next **commit**
 
 ## Adding a file to the staging area
 

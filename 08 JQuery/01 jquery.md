@@ -14,8 +14,7 @@
 		<!-- jQuery will change this -->
 		<a href=""></a>
 		<!-- to this <a href="http://www.jquery.com">link to jQuery's offficial website</a> -->
-		<script src="https://code.jquery.com/jquery-3.3.0.js"
-		></script>
+		<script src="https://code.jquery.com/jquery-3.3.0.js"></script>
 		<script>
 			$('a')
 				.text('link to jQuery\'s offficial website')
@@ -55,5 +54,5 @@
 Try to build the following DOM tree
 
 <p align="center">
-	<img src="images/dom_tree.png">
+	<img src="images/dom-tree.png">
 </p>

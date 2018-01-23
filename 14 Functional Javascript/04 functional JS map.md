@@ -9,7 +9,9 @@
 ## Activity: plus one to all students! Declarative
 * Now what if we want to create a new function that adds 2 rather than 1 ? We would have to write a new function and copy much of the code of `plusOneToAllStudents`. No code reuse here. That's so WET!
 * No worries. FP can help you here. Look at this picture:
+
 ![](img/functional-js-map.png)
+
 * Here is the idea:
   1. Create a function `plusOne` that:
     * takes one input `x`
@@ -40,7 +42,7 @@
   2. apply `mapFn` to all elements of the calling array.
   3. creates a new array `mappedArr` with the results from step 2
   4. returns `mappedArray`
-* `map` passes your callback `mapFn` tree arguments:
+* `map` passes your callback `mapFn` three arguments:
   1. The *current item*
   * The *current index*
   * The *calling array*

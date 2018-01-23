@@ -1,19 +1,13 @@
 * exercice
   * write the following commits:
-    * "initial commit"
+    1. "initial commit"
     * "add bootstrap"
     * "add jquery"
     * add header
     * add logo
-* Topics
-  * checkout
-  * checkout -b
-  * branch
-  * show
-  * diff
-  *
+* hints: `checkout` `checkout -b` `branch` `show` `diff`
 
-## Moving in history
+##` Moving in history
 
 to get you repo to a previous state use:
 

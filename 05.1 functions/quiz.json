@@ -1,0 +1,103 @@
+{
+  "Name": "Quiz - Functions",
+  "OrderIndicator": 0,
+  "Questions": [
+    {
+      "Content": "The inputs of a function are called",
+      "Choices": [
+        {
+          "Content": "parameters",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "body",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "arguments",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "return statement",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ],
+      "Path": null
+    },
+    {
+      "Content": "How many return values can a function have",
+      "Choices": [
+        {
+          "Content": "zero",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "zero or one",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "more than one",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "less than 10",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ]
+    },
+    {
+      "Content": "The default return statement of a function is",
+      "Choices": [
+        {
+          "Content": "null",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "0",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "undefined",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "false",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ]
+    },
+    {
+      "Content": "Local variables are",
+      "Choices": [
+        {
+          "Content": "variables accessed only inside a function",
+          "IsCorrect": true,
+          "Path": null
+        },
+        {
+          "Content": "variables accessed only inside a program",
+          "IsCorrect": false,
+          "Path": null
+        },
+        {
+          "Content": "variables accessed anywhere",
+          "IsCorrect": false,
+          "Path": null
+        }
+      ]
+    }
+  ],
+  "Path": null
+}

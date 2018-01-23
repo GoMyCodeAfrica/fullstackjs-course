@@ -14,6 +14,13 @@
   * write data in its **return** value
 * A pure function **can** call other pure functions
 
+<table border style="border-collapse: collapse;">
+  <tr>
+    <td> ![](img/pure-function.png) </td>
+    <td> ![](img/impure-function.png) </td>
+  </tr>
+</table>
+
 ## Activity: Is it pure ?
 
 Which of the following is a pure function ? Why ?

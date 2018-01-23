@@ -1,6 +1,11 @@
 # Fetching data from the server
 
 ## Introduction
+
+* AJAX stands for Asynchronous JavaScript and XML
+* AJAX is not a programming language.
+* AJAX is a technique for accessing web servers from a web page.
+
 ![](images/ajax.jpg)
 
 * The web is based on communication between different machines
@@ -15,9 +20,12 @@
 
 ## Benefits of the AJAX model
 
-* Page updates are a lot quicker and you don't have to wait for the page to refresh, meaning that the site feels faster and more responsive.
+AJAX is a developer's dream, because you can:
 
-* Less data is downloaded on each update, meaning less wasted bandwidth. This may not be such a big issue on a desktop on a broadband connection, but it's a major issue on mobile devices.
+* Update a web page without reloading the page
+* Request data from a server - after the page has loaded
+* Receive data from a server - after the page has loaded
+* Send data to a server - in the background
 
 ## Ajax with jQuery
 

@@ -357,8 +357,8 @@ function(accessToken, refreshToken, profile, done) {
 
       // save our user to the database
       newUser.save(function(err) {
-          if (err) throw err;
-          return done(null, newUser);
+        if (err) throw err;
+        return done(null, newUser);
       });
     }
   });

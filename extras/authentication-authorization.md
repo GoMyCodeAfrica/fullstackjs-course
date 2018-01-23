@@ -66,30 +66,30 @@ var bcrypt = require('bcryptjs');
 
 // User Schema
 var UserSchema = mongoose.Schema({
-	username: {
-		type: String,
-		index:true
-	},
-	password: {
-		type: String
-	},
-	email: {
-		type: String
-	},
-	name: {
-		type: String
-	}
+  username: {
+    type: String,
+    index:true
+  },
+  password: {
+    type: String
+  },
+  email: {
+    type: String
+  },
+  name: {
+    type: String
+  }
 });
 
 var User = module.exports = mongoose.model('User', UserSchema);
 
 module.exports.createUser = function(newUser, callback){
-	bcrypt.genSalt(10, function(err, salt) {
-	    bcrypt.hash(newUser.password, salt, function(err, hash) {
-	        newUser.password = hash;
-	        newUser.save(callback);
-	    });
-	});
+  bcrypt.genSalt(10, function(err, salt) {
+    bcrypt.hash(newUser.password, salt, function(err, hash) {
+      newUser.password = hash;
+      newUser.save(callback);
+    });
+  });
 }
 ```
 
@@ -131,9 +131,9 @@ app.use(cookieParser());
 
 // Express Session
 app.use(session({
-    secret: 'secret',
-    saveUninitialized: true,
-    resave: true
+  secret: 'secret',
+  saveUninitialized: true,
+  resave: true
 }));
 
 // Passport init
@@ -149,21 +149,21 @@ Let's add an endpoint to save users to database. (P.S. Nothing from passport is 
 ```javascript
 // Register User
 app.post('/register', function(req, res){
-	var password = req.body.password;
-	var password2 = req.body.password2;
+  var password = req.body.password;
+  var password2 = req.body.password2;
 
   if (password == password2){
     var newUser = new User({
-  		name: req.body.name,
-  		email: req.body.email,
-  		username: req.body.username,
-  		password: req.body.password
-  	});
+      name: req.body.name,
+      email: req.body.email,
+      username: req.body.username,
+      password: req.body.password
+    });
 
-  	User.createUser(newUser, function(err, user){
-  		if(err) throw err;
-  		res.send(user).end()
-  	});
+    User.createUser(newUser, function(err, user){
+      if(err) throw err;
+      res.send(user).end()
+    });
   } else{
     res.status(500).send("{errors: \"Passwords don't match\"}").end()
   }
@@ -181,19 +181,19 @@ Let's add some methods to our user model:
 
 ```javascript
 module.exports.getUserByUsername = function(username, callback){
-	var query = {username: username};
-	User.findOne(query, callback);
+  var query = {username: username};
+  User.findOne(query, callback);
 }
 
 module.exports.getUserById = function(id, callback){
-	User.findById(id, callback);
+  User.findById(id, callback);
 }
 
 module.exports.comparePassword = function(candidatePassword, hash, callback){
-	bcrypt.compare(candidatePassword, hash, function(err, isMatch) {
-    	if(err) throw err;
-    	callback(null, isMatch);
-	});
+  bcrypt.compare(candidatePassword, hash, function(err, isMatch) {
+    if(err) throw err;
+    callback(null, isMatch);
+  });
 }
 ```
 
@@ -206,19 +206,18 @@ var LocalStrategy = require('passport-local').Strategy;
 passport.use(new LocalStrategy(
   function(username, password, done) {
     User.getUserByUsername(username, function(err, user){
-   	  if(err) throw err;
-   	  if(!user){
-   		   return done(null, false, {message: 'Unknown User'});
-   	  }
-
-     	User.comparePassword(password, user.password, function(err, isMatch){
-     		if(err) throw err;
-     		if(isMatch){
-     			return done(null, user);
-     		} else {
-     			return done(null, false, {message: 'Invalid password'});
-     		}
-     	});
+      if(err) throw err;
+      if(!user){
+        return done(null, false, {message: 'Unknown User'});
+      }
+      User.comparePassword(password, user.password, function(err, isMatch){
+        if(err) throw err;
+     	if(isMatch){
+     	  return done(null, user);
+     	} else {
+     	  return done(null, false, {message: 'Invalid password'});
+     	}
+     });
    });
   }
 ));
@@ -251,14 +250,14 @@ app.post('/login',
 
 // Endpoint to get current user
 app.get('/user', function(req, res){
-	res.send(req.user);
+  res.send(req.user);
 })
 
 
 // Endpoint to logout
 app.get('/logout', function(req, res){
-	req.logout();
-	res.send(null)
+  req.logout();
+  res.send(null)
 });
 ```
 
@@ -282,14 +281,14 @@ Time to go back to our code.
 var FacebookStrategy = require('passport-facebook').Strategy;
 var FacebookStrategy = require('passport-facebook').Strategy;
 passport.use(new FacebookStrategy({
-    clientID: "APP_ID",
-    clientSecret: "SECRET_KEY",
-    callbackURL: "http://localhost:3000/auth/facebook/callback"
-  },
-  function(accessToken, refreshToken, profile, done) {
-    console.log(profile)
-    // TODO: do sth with returned values
-  });
+  clientID: "APP_ID",
+  clientSecret: "SECRET_KEY",
+  callbackURL: "http://localhost:3000/auth/facebook/callback"
+},
+function(accessToken, refreshToken, profile, done) {
+  console.log(profile)
+  // TODO: do sth with returned values
+});
 }));
 ```
 
@@ -316,24 +315,24 @@ Let's update our user schema:
 
 ```javascript
 var UserSchema = mongoose.Schema({
-	username: {
-		type: String,
-		index:true
-	},
-	password: {
-		type: String
-	},
-	email: {
-		type: String
-	},
-	name: {
-		type: String
-	},
+  username: {
+    type: String,
+    index:true
+  },
+  password: {
+    type: String
+  },
+  email: {
+    type: String
+  },
+  name: {
+    type: String
+  },
   facebook: {
-    id           : String,
-    token        : String,
-    email        : String,
-    name         : String
+    id: String,
+    token: String,
+    email: String,
+    name: String
   },
 });
 ```

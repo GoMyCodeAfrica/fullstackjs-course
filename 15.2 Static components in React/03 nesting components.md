@@ -17,3 +17,32 @@ class Parent extends Component {
     }
 }
 ```
+## Export components
+
+```javascript
+import React, { Component } from 'react'
+class Parent extends Component {
+    render() {
+        return (
+          ...
+        )
+    }
+}
+export default Parent;
+```
+or we can do this :
+
+```javascript
+import React, { Component } from 'react'
+
+import Child from '../Child'
+
+export default class Parent extends Component {
+    render() {
+        return (
+          .....
+        )
+    }
+}
+
+```

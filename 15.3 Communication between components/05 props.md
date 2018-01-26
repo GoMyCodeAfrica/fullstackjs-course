@@ -37,9 +37,13 @@ class App extends Component {
 export default App
 ```
 
-## Exercise
+## Exercise 1:
 Create a Calculator Component which takes 2 inputs (through props) x and y and render (x+y).
 
 ```html
   <Calculator x={5} y={6} />
 ```
+
+## Exercice 2:
+Create a VacancySign component that has a boolean prop `hasvacancy`. The component should render 
+a div with either the text "Vacancy" or "No Vacancy" depending on the prop.

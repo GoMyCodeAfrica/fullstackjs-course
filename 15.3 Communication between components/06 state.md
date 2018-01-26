@@ -34,6 +34,14 @@ class Counter extends Component{
 
 export default Counter
 ```
-
-## Exercise
+## Exercice:
 Create a Countdown component which takes number of seconds as input (through props) and render a countdown to 0.
+
+## Exercise:
+Create a Click component wich every time you click the penguin the state change +1 .
+
+![](img/penguin.jpg)
+
+## User Story
+* Inital your state to `0`
+* write a function `clickpenguin` to change the state

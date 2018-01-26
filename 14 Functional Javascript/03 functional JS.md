@@ -14,6 +14,9 @@
 * Display an alert box that says `Hello` every 3 seconds with `setInterval()`
 
 
+
+* Display an alert box that says `Hello` after 3 seconds (3000 milliseconds) using `setTimeout()`.
+
 ## Array.prototype functions
 
 * In the next slide, we will cover many higher-order functions that can help us manipulate arrays.

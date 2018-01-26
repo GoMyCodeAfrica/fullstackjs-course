@@ -23,6 +23,7 @@ const divStyle = {
 ```
 
 ## Exercise
-Create a component that contains 2 divs, one with text color red and the other with color green, change the text size and background.
 
-Use one of the 2 methods for each div.
+* Use this mockup to build something similar.
+
+![](img/docplanner.jpg)

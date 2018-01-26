@@ -35,3 +35,41 @@
   2. The *current index*
   3. The *calling array*
 * We use the `filter` function whenever we want to extract a sub-array based on a certain criteria
+
+![](img/filter.JPG)
+
+## Exercices
+
+1.
+
+* Remove all negative numbers
+
+Input :
+
+  ```javascript
+  var
+    tab = [-2,-1,0,1,2];
+  ```
+
+Output :
+
+```javascript
+  console.log(tab);  //[0,1,2]
+```
+
+2.
+
+* Remove random objects from an array
+
+Input :
+
+  ```javascript
+  var
+    myarray = [1,2,3,4]
+  ```
+
+Output :
+
+```javascript
+  console.log(myarray)  //[1] //[1,4]
+```

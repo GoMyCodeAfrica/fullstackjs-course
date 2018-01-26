@@ -47,3 +47,61 @@
   * The *current index*
   * The *calling array*
 * We use the `map` function to modify every element in the array in exactly the same way
+
+![](img/map.JPG)
+
+## Exercices
+
+1.
+
+* Use the function `.map()` to return an array `integers` with absolute values of their values.
+
+Input :
+
+  ```javascript
+  var
+    integers = [1,-0,9,-8,3]
+  ```
+
+Output :
+
+```javascript
+  console.log(integers);  //[1,0,9,8,3]
+```
+
+2.
+
+* Multiply using `.map()` an array of numbers by their position in the array.
+
+Input :
+
+  ```javascript
+  var
+    numbers = [1,2,3,4]
+  ```
+Output :
+
+```javascript
+  console.log(numbers)  //24
+```
+
+3.
+
+* Split the sting.
+
+* Map the string to capitalize the first letter only.
+
+* Join the string words.
+
+Input :
+
+  ```javascript
+  var
+    str = 'hello world how ya doing?';
+  ```
+
+Output :
+
+```javascript
+  str = 'Hello World How Ya Doing?';
+```

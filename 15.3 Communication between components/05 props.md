@@ -44,6 +44,11 @@ export default App
   <Calculator x={5} y={6} />
 ```
 
+
 * Create a Card Component which takes 3 inputs (through props) name, age and status and render a card contains all user informations.
 
 ![](img/props.png)
+
+
+* Create a VacancySign component that has a boolean prop `hasvacancy`. The component should render 
+a div with either the text "Vacancy" or "No Vacancy" depending on the prop.

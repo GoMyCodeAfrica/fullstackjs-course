@@ -36,4 +36,8 @@ export default Counter
 ```
 
 ## Exercise
-Create a Countdown component which takes number of seconds as input (through props) and render a countdown to 0.
+* Create a Countdown component which takes number of seconds as input (through props) and render a countdown to 0.
+
+* Everytime you click the button and "TADAAHH" the color changes.
+
+![](img/state.png)

@@ -38,8 +38,12 @@ export default App
 ```
 
 ## Exercise
-Create a Calculator Component which takes 2 inputs (through props) x and y and render (x+y).
+* Create a Calculator Component which takes 2 inputs (through props) x and y and render (x+y).
 
 ```html
   <Calculator x={5} y={6} />
 ```
+
+* Create a Card Component which takes 3 inputs (through props) name, age and status and render a card contains all user informations.
+
+![](img/props.png)

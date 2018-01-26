@@ -5,4 +5,6 @@ React can be thought as just a view library. However, we can use many other libr
   * **React router**: A routing library that simulates multi-page navigation without reloading the page
   * **Webpack**: An advanced tool that enables the creation of production-ready code from the source code in an automatic way.
   * **Immutable.js**: The problem with JS objects is that they are mutable by nature. This library provides a set of immutable data structures.
-  * **crate-react-app**: To get started with react with zero configuration, this is the tool to use.
+  * **create-react-app**: To get started with react with zero configuration, this is the tool to use.
+
+  ![](img/logos.jpg)

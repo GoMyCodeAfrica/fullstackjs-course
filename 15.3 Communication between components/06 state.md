@@ -43,11 +43,7 @@ export default Counter
 
 ![](img/state.png)
 
-## Exercice:
-Create a Countdown component which takes number of seconds as input (through props) and render a countdown to 0.
-
-## Exercise:
-Create a Click component wich every time you click the penguin the state change +1 .
+* Create a Click component wich every time you click the penguin the state change +1 .
 
 ![](img/penguin.jpg)
 

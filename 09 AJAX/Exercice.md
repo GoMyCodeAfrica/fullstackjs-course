@@ -1,23 +1,14 @@
-# Build a Wikipedia viewer
-1.Objective: Build a app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/.
-
-2.Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
-
-## User Story :
-
-- I can search Wikipedia entries in a search box and see the resulting Wikipedia entries.
-
-- I can click a button to see a random Wikipedia entry.
+# Build a Deezer viewer
+![](images/Deezer-API.png)
 
 ## Hints :
 
-Hint #1: Here's a URL you can use to get a random Wikipedia article: https://en.wikipedia.org/wiki/Special:Random.
+Hint #1: Here's an entry on using deezer's API:
 
-Hint #2: Here's an entry on using Wikipedia's API: https://www.mediawiki.org/wiki/API:Main_page.
+In order to search the specified artist name 'eminem', and get jsonp back, you can do
+ https://api.deezer.com/artist/eminem.
 
-Hint #3: Use this link to experiment with Wikipedia's API.
-
-Hint #4:Remember to use Read-Search-Ask if you get stuck.
+Hint #2:Remember to use Read-Search-Ask if you get stuck.
 
 ## Extra
 

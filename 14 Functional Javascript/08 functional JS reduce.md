@@ -27,7 +27,57 @@
 * `reduce` passes your callback `multiply`
 
 # Exercice
+
 ## find the largest number
-we have an array numbers = [1,2,3,4] we want to return the largest number `4`
-  1. Write a function that takes two numbers ` a , y `
+
+  1. Write a function that takes two numbers ` x , y `
   2. return the largest number
+
+## Eightiest number
+
+ * Write a function that takes an array of strings, returns the most string that contains the number '8'.
+
+Input :
+
+```javascript
+var arr = ["1346788", "88SIRINE6548", "moez554387654", "HELLOWORLD", "8REDUCE8" , "123456789"]
+```
+
+Output :
+
+```javascript
+// 88SIRINE6548
+```
+
+## Flatten array
+
+* Use `reduce()` to flatten an array of arrays.
+
+Input :
+
+```javascript
+var flattened = [[0, 1], [2, 3], [4, 5]]
+```
+
+Output :
+
+```javascript
+// flattened is [0, 1, 2, 3, 4, 5]
+```
+
+## Counting instances of values in an object
+
+* Write a function that takes an array as an input, count instances of values in a returned object.
+
+Input :
+
+```javascript
+var names = ['Alice', 'Bob', 'Tiff', 'Bruce', 'Alice'];
+```
+
+Output :
+
+```javascript
+// countedNames is:
+// { 'Alice': 2, 'Bob': 1, 'Tiff': 1, 'Bruce': 1 }
+```

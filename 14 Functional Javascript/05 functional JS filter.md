@@ -59,7 +59,7 @@ Output :
 
 2.
 
-* Remove random objects from an array
+* Remove random objects from an array (math.random)
 
 Input :
 
@@ -72,4 +72,25 @@ Output :
 
 ```javascript
   console.log(myarray)  //[1] //[1,4]
+```
+
+3.
+
+* Filtering an array of objects under a criteria that you choose :
+
+Input :
+
+  ```javascript
+    var heroes = [
+    	{name: “Batman”, franchise: “DC”},
+    	{name: “Ironman”, franchise: “Marvel”},
+    	{name: “Thor”, franchise: “Marvel”},
+    	{name: “Superman”, franchise: “DC”}
+    ];
+  ```
+
+Output :
+
+```javascript
+  // [ {name: “Ironman”, franchise: “Marvel”}, {name: “Thor”, franchise: “Marvel”} ]
 ```

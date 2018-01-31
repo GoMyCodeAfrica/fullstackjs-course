@@ -46,6 +46,6 @@ export default People
 
 ## Exercise
 
-* Write a function that takes an object and returns a card.
+* Write a function that takes an array of projects object(see the picture) and returns a card.
 
 ![](img/looping.png)

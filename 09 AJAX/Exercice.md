@@ -8,7 +8,6 @@ Hint #1: Here's an entry on using deezer's API:
 In order to search the specified artist name 'eminem', and get jsonp back, you can do
  https://api.deezer.com/artist/eminem.
 
-Hint #2:Remember to use Read-Search-Ask if you get stuck.
 
 ## Extra
 

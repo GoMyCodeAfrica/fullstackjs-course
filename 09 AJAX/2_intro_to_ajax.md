@@ -27,16 +27,29 @@ AJAX is a developer's dream, because you can:
 * Receive data from a server - after the page has loaded
 * Send data to a server - in the background
 
-## Ajax with jQuery
+## AJAX using jQuery
 
-Read the following articles
+* We can send HTTP request using jQuery.
 
-1. <a href="https://learn.jquery.com/ajax/">What's ajax</a>
+* jQuery provides many functions :
 
-2. <a href="https://learn.jquery.com/ajax/key-concepts/">Key concepts</a>
+	* `$.ajax()`
+	* `$.post()`
+	* `$.get()`
+	* `$.getJSON()`
 
-3. <a href="https://learn.jquery.com/ajax/jquery-ajax-methods/">jQuery's Ajax related methods</a>
+* For example, let's say we have a server `localhost` that contains data about sessions at `http://localhost/sessions`
 
-### Active learning
+```javascript
+$.getJSON( "http://localhost/sessions", function( data ) {
+	console.log(data)
+});
+```
 
-Try to re-do the previous ajax example using jQuery's ajax method.
+## Activity
+
+Show me the weather in your location using `OpenWeatherMap` :
+
+* API docs : http://openweathermap.org/current
+
+**Hint** : api.openweathermap.org/data/2.5/weather?q={city name}

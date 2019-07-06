@@ -10,11 +10,11 @@ class People extends Component{
     this.state = {
       people: [
         {
-          name: "Folan",
+          name: "Sirine",
           score: 62
         },
         {
-          name: "Folana",
+          name: "Moez",
           score: 57
         },
         {
@@ -54,6 +54,5 @@ export default People
 ```
 
 ### Exercise
-Instead of rendering text "Fail/Pass" use styling to color the name of person depending on his score:
-- if `< 50` => RED
-- if `>= 50` => GREEN
+
+![](img/condition.png)

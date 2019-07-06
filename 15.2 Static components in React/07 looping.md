@@ -11,11 +11,11 @@ class People extends Component{
     this.state = {
       people: [
         {
-          name: "Folan",
+          name: "Sirine",
           score: 62
         },
         {
-          name: "Folana",
+          name: "Moez",
           score: 57
         },
         {
@@ -45,4 +45,7 @@ export default People
 ```
 
 ## Exercise
-Add more attributes to person object (email, major etc.)
+
+* Write a function that takes an object and returns a card.
+
+![](img/looping.png)

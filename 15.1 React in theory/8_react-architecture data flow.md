@@ -4,6 +4,14 @@
 * As developers, all we have to do is update the state of our apps (the data) and react will update the UI accordingly
 * The data passes through components and every component only gets the minimum amount of data needed.
 
+![](img/dataFlow.jpg)
+
 ## Activity
 
 Getting back to the same facebook example, draw a model of how data stored in the root component and how it flows through children components
+
+
+## Excercie:
+Write a function that take an object and return a html page
+
+![](img/data.jpg)

@@ -10,6 +10,10 @@
   * `setInterval` for executing a function after **each time interval**
   * `$` JQuery can take a function as input and only execute it when the DOM is ready
 
+## Activity
+* Display an alert box that says `Hello` every 3 seconds with `setInterval()`
+
+
 ## Array.prototype functions
 
 * In the next slide, we will cover many higher-order functions that can help us manipulate arrays.
